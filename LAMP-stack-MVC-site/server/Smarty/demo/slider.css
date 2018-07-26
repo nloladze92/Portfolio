@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#pie {
+	width: 431px;
+	height: 80px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image: url(../../../styles_styles/icons/slider/jquery.bxslider/blueback8.jpg);
+	padding-top: 30px;
+	display: block;
+	background-color: rgba(0,0,0,0);
+	z-index: 0;
+	margin-bottom: -22px;
+}
+
+.percentable {
+	margin-bottom: -19px;
+	z-index: 1;
+	position: relative;
+	margin-top: 8px;
+}
+
+.merged {
+  /* color the track
+   * firefox/webkit gradient done in JavaScript */
+  /* size the slider */
+  /* style the thumb
+   * can all be same but must be on seperate lines
+   * or browsers won't accept them */
+	
+	position: relative;	
+	background-color: #2A4665;
+}
+
+.merged input::-moz-range-track {
+  border-radius: 40px;
+  -webkit-appearance: none;
+}
+.merged input::-ms-fill-upper {
+  background-color: #2A4665;
+}
+.merged input::-ms-fill-lower {
+  background-color: #2A4665;
+}
+.merged input::-ms-fill-upper, .merged input::-ms-fill-lower {
+  border-radius: 40px;
+  -webkit-appearance: none;
+}
+.merged input::-ms-track {
+  color: transparent;
+}
+.merged input.webkit-track {
+  border: solid 2px #444;
+  -webkit-appearance: none;
+  border-radius: 40px;
+  margin-left: -11px;
+}
+.merged input::-moz-range-track {
+  height: 11px;
+}
+.merged input::-ms-track {
+  height: 11px;
+}
+.merged input {
+  height: 11px;
+}
+.merged input {
+  width: 371px;
+}
+.merged input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	position: relative;
+	top: -1px;
+	width: 16px;
+	 height: 16px;
+	border-radius: 100%;
+	cursor: move;
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	background-color: #FFF;
+}

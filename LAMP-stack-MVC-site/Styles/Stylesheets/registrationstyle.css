@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.login_input {
+	background: url(../Menu%20Buttons/Registration/textfieldjpg.jpg);
+	width: 333px;
+	height: 52px;
+	
+	color:#FFF;
+	text-align: center;
+	
+	padding-left: 15px;
+	background-color: #BCCCDB;
+	background-repeat: no-repeat;
+	margin-left: 12px;
+	
+	font-size: 20px;
+	line-height: 20px;
+	text-indent: 5px;
+	
+	position:relative;left: -3px; top:-21px;
+}
+
+.no_touch {
+-webkit-touch-callout: none;
+-webkit-user-select: none; // locks fields on Safari
+-khtml-user-select: none; // locks fields on Safari
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;     
+-ms-user-select: none; /* From IE10 only */
+-webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+user-drag: none;
+}
+
+.tablemargin {
+	margin-top: 15px !important;
+}
+
+.gobackfont {
+	padding-left: 15px;
+}
+
+.register {
+	background:url(../Menu%20Buttons/Registration/registerjpg.jpg);
+	width: 251px;
+	height: 57px;
+	position:relative;left: -4px; top: -5px;
+}
+

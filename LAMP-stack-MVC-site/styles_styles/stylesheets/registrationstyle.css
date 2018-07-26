@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.login_input {
+	background: url(../Menu%20Buttons/Registration/textfieldjpg.jpg);
+	width: 333px;
+	height: 52px;
+	
+	color:#FFF;
+	text-align: center;
+	
+	padding-left: 15px;
+	background-color: #BCCCDB;
+	background-repeat: no-repeat;
+	margin-left: 12px;
+	
+	font-size: 20px;
+	line-height: 20px;
+	text-indent: 5px;
+	
+	position:relative;left: -3px; top:-21px;
+}
+
+
+.no_touch {
+-webkit-touch-callout: none;
+-webkit-user-select: none; // locks fields on Safari
+-khtml-user-select: none; // locks fields on Safari
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;     
+-ms-user-select: none; /* From IE10 only */
+-webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+user-drag: none;
+}
+
+.tablemargin {
+	margin-top: 15px !important;
+}
+
+.gobackfont {
+	padding-left: 15px;
+}
+
+.register {
+	background:url(../Menu%20Buttons/Registration/registerjpg.jpg);
+	width: 251px;
+	height: 57px;
+	position: relative;left: -4px;
+}
+
+
+#body {
+   padding:10px;
+   padding-bottom: 25px;   /* Height of the footer */
+   overflow: hidden;
+}
+
+#header {
+   background-image: url(../images/tutorial/bar.jpg);
+   background-size:100% 100%;
+   width: 100%;
+   height: 34px;
+   padding: 5px;
+   border-bottom: #CCCCCC 3px solid;
+}
+
+#footer {
+   background-image:url(../images/tutorial/bottombar.jpg);
+   width: 100%;
+   height: 20px;   /* Height of the footer */
+   border-top: #CCCCCC 3px solid;
+   overflow:hidden;
+   background-size:100% 100%;
+   color: #FFF;
+   bottom:0;
+}
+
+.registerfont {
+color: #FFF;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;	
+font-size: 20px;
+}
+

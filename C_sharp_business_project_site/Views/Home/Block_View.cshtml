@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Slim Blockchains</title>
+  <script>const ID = 'KnwIg4iWq1I'</script>
+
+    <link href='~/Content/StyleSheets/Animations/Blocks1.css' rel='stylesheet prefetch'>
+    <link href='~/Content/StyleSheets/Animations/Blocks2.css' rel="stylesheet">
+    <link href='~/Content/StyleSheets/Animations/Blocks3.scss' rel="stylesheet">
+  
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+  background: black;
+  filter: brightness(0.85);
+}
+
+div {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.a3d {
+  top: 50%;
+  left: 50%;
+  transform: rotatex(-35deg) rotatey(0deg);
+  animation: rot 5s linear infinite;
+}
+
+@keyframes rot {
+  to {
+    transform: rotatex(-35deg) rotatey(1turn);
+  }
+}
+.s3d {
+  --i: 0;
+  --k: 0;
+  --x: calc((var(--i) - 3.5)*8vmin);
+  --z: calc((var(--k) - 3.5)*8vmin);
+  transform: translate3d(var(--x), 8vmin, var(--z));
+  animation: osc 1s ease-in-out calc((var(--i) + var(--k))*-0.125s) infinite alternate;
+}
+.s3d:nth-child(8n + 2) {
+  --i: 1;
+}
+.s3d:nth-child(n + 9) {
+  --k: 1;
+}
+.s3d:nth-child(8n + 3) {
+  --i: 2;
+}
+.s3d:nth-child(n + 17) {
+  --k: 2;
+}
+.s3d:nth-child(8n + 4) {
+  --i: 3;
+}
+.s3d:nth-child(n + 25) {
+  --k: 3;
+}
+.s3d:nth-child(8n + 5) {
+  --i: 4;
+}
+.s3d:nth-child(n + 33) {
+  --k: 4;
+}
+.s3d:nth-child(8n + 6) {
+  --i: 5;
+}
+.s3d:nth-child(n + 41) {
+  --k: 5;
+}
+.s3d:nth-child(8n + 7) {
+  --i: 6;
+}
+.s3d:nth-child(n + 49) {
+  --k: 6;
+}
+.s3d:nth-child(8n + 8) {
+  --i: 7;
+}
+.s3d:nth-child(n + 57) {
+  --k: 7;
+}
+
+@keyframes osc {
+  to {
+    transform: translate3d(var(--x), -8vmin, var(--z));
+  }
+}
+.s2d {
+  --i: 0;
+  --j: calc(1 - var(--i));
+  --h: calc(var(--i)*8vmin + var(--j)*16vmin);
+  margin: calc(-.5*var(--h)) -4vmin;
+  width: 8vmin;
+  height: var(--h);
+  transform: rotate3d(var(--i), var(--j), 0, calc(var(--mf, 1)*90deg)) translatez(calc(.5*(var(--j)*8vmin + var(--i)*16vmin)));
+  background: linear-gradient(white, hsl(0, 0%, calc(var(--i)*100%)));
+}
+.s2d:last-child {
+  --i: 1;
+}
+.s2d:nth-child(1) {
+  --mf: 0;
+}
+.s2d:nth-child(3) {
+  --mf: 2;
+}
+.s2d:nth-child(4) {
+  --mf: 3;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  
+<div class="a3d">
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+  <div class="s3d">
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+    <div class="s2d"></div>
+  </div>
+</div>
+
+  <script src='https://codepen.io/thebabydino/pen/evPbxv.js'></script>
+
+  
+</body>
+</html>

@@ -1,0 +1,210 @@
+/* 
+    Document   : style
+    Created on : Aug 29, 2012, 3:59:32 PM
+    Author     : Nick
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html {
+	height: 100%;
+}
+
+/*
+body {
+	background-image: url(../../../styles_styles/pink2.jpg);
+   background-size: cover;
+	height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+*/
+/*
+	::i-block-chrome,body {
+ background-image: url(../../../styles_styles/backgrounds/pledgebackgrounds/pink.jpg);
+ background-size: 100% 100%;
+ background-repeat: repeat-y;
+ height: 1200px;
+ overflow-x: hidden;
+}
+*/
+
+@font-face {
+    font-family: allerfont;
+    src: url(../../../styles_styles/fonts/Aller/AllerDisplay.ttf);
+}
+
+.nudge {
+	font-family: allerfont;
+	color: #FFF;
+	size: 32px;
+}
+
+input[type="radio"][value="10"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../../../styles_styles/images/dollarpledging/10.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="10"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected10.png);
+}
+
+
+
+input[type="radio"][value="15"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/15.png);
+    cursor:pointer;
+}
+
+
+input[type="radio"][value="15"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected15.png);
+}
+
+
+input[type="radio"][value="30"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/30.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="30"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected30.png);
+}
+
+
+input[type="radio"][value="50"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/50.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="50"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected50.png);
+}
+
+input[type="radio"][value="100"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/100.png);
+    cursor:pointer;
+}
+
+
+input[type="radio"][value="100"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected100.png);
+}
+
+
+input[type="radio"][value="150"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/150.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="150"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected150.png);
+}
+
+
+input[type="radio"][value="200"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/200.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="200"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected200.png);
+}
+
+
+input[type="radio"][value="300"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/300.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="300"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected300.png);
+}
+
+input[type="radio"][value="500"] + label span {
+    display:inline-block;
+    width: 65px;
+    height: 64px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background: url(../../../styles_styles/images/dollarpledging/500.png);
+    cursor:pointer;
+}
+
+input[type="radio"][value="500"]:checked + label span {
+    background: url(../../../styles_styles/images/dollarpledging/selected500.png);
+}
+
+#total {
+	background-image: url(../../../styles_styles/icons/slider/xhtml/psdslider1/totalnumber5.png);
+	width: 180px;
+	height: 162px;
+	background-size: 100% 100%;
+}
+
+#totalnumber {
+	 margin-top: 89px;
+	 margin-left: 12px;
+	 font-family: allerfont;
+	 line-height: 45px;
+	 font-size: 40px;
+	 width: 150px;
+	 background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/font.png);
+	 border: 0;
+	 color: #FFF;
+	 text-align: center; 
+}
+
+#table {
+	margin: 0px;
+	padding: 0px;
+	border: 5px solid #062544;
+	border-collapse: collapse;
+	vertical-align: top;
+	padding-bottom: 0px;
+}
+
+
+/* The Slider Design */

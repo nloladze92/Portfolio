@@ -1,0 +1,59 @@
+$p: 8;
+$w: 8vmin;
+$h: 2*$w;
+$n4gon: 4;
+$ba4gon: 360deg/$n4gon;
+$m: .5*($p - 1);
+$amp: .5*$h;
+$t: 1s;
+
+body {
+	background: black;
+	filter: brightness(.85)
+}
+
+div {
+	position: absolute;
+	transform-style: preserve-3d
+}
+
+.a3d {
+	top: 50%; left: 50%;
+	transform: rotatex(-35deg) rotatey(0deg);
+	animation: rot 5*$t linear infinite
+}
+
+@keyframes rot { to { transform: rotatex(-35deg) rotatey(1turn) } }
+
+.s3d {
+	--i: 0;
+	--k: 0;
+	--x: calc((var(--i) - #{$m})*#{$w});
+	--z: calc((var(--k) - #{$m})*#{$w});
+	transform: translate3d(var(--x), $amp, var(--z));
+	animation: osc $t ease-in-out calc((var(--i) + var(--k))*#{-$t/$p}) infinite alternate;
+	
+	@for $i from 1 to $p {
+		&:nth-child(#{$p}n + #{$i + 1}) { --i: $i }
+		&:nth-child(n + #{$i*$p + 1}) { --k: $i }
+	}
+}
+
+@keyframes osc { to { transform: translate3d(var(--x), -$amp, var(--z)); } }
+
+.s2d {
+	--i: 0;
+	--j: calc(1 - var(--i));
+	--h: calc(var(--i)*#{$w} + var(--j)*#{$h});
+	margin: calc(-.5*var(--h)) -.5*$w;
+	width: $w; height: var(--h);
+	transform: rotate3d(var(--i), var(--j), 0, calc(var(--mf, 1)*#{$ba4gon})) 
+		translatez(calc(.5*(var(--j)*#{$w} + var(--i)*#{$h})));
+	background: linear-gradient(white, hsl(0,0%,calc(var(--i)*100%)));
+	
+	&:last-child { --i: 1 }
+	
+	@for $i from 0 to $n4gon {
+		@if $i != 1 { &:nth-child(#{$i + 1}) { --mf: $i } }
+	}
+}

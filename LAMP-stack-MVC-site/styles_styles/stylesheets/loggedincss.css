@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+#autocomplete[type="text"]
+{
+	/* 2/10/17 - Got rid of fruity line breaks */
+	margin-top: 11%;
+    font-size: 36px;
+	color: #FFF;
+	text-align: left;
+}
+
+.search {
+		height: 70px;
+		width: 900px;
+		padding-left: 15px;
+		background-color: #BCCCDB;
+		color: #FFF;
+}
+
+input.focus {
+	outline: hidden;
+	
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+	text-align:center;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+	text-align:center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+	text-align:center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+	text-align:center;
+}

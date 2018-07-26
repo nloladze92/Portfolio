@@ -1,0 +1,133 @@
+#backgroundlogin {
+	background-image:url(../../images/backgroundlogin2.png);
+	width: 283px;
+	height: 245px;
+}
+
+table.focus {
+	outline-width: 0px;
+	table-layout: auto;
+	
+}
+
+#logo {
+	vertical-align: bottom;
+	display: table-cell;
+	
+}
+
+input.focus {
+	outline: hidden;
+	
+}
+
+.errormessage {
+	background-color:#FFF;
+	font: 12px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+	text-align:center;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+	text-align:center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+	text-align:center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+	text-align:center;
+}
+
+h2 {color: white;
+font-family:"Courier New", Courier, monospace}
+
+/* Elements for main index page */
+.belowsearchbar {font-style:normal;
+color: white;
+}
+
+.login_input
+{
+    background-image: url(../2images/typeintext.jpg);
+	background-color: #FFF;
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+    height: 35px;
+    width: 247px;
+	font-size: 14px;
+	line-height: 14px;
+	color: #FFF;
+	font-family: "Courier New", Courier, monospace;
+	text-indent: 5px;
+	border-radius: 7px;
+	margin-left: 3px;
+}
+
+#login_input_username {
+	margin-top: 74px;}
+	
+	#login_input_password {
+		margin-top: 29px;
+	}
+
+.login_input:focus
+{
+    background-image: url(../2images/typeintext2.jpg);
+	background-color: #FFF;
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+     height: 35px;
+    width: 247px;
+	font-size: 22px;
+	line-height: 22px;
+	color: #666;
+	font-family: "Courier New", Courier, monospace;
+	border-radius: 7px;
+	margin-left: 3px;
+	text-indent: 5px;
+	outline-width: 0;
+	outline: none;
+	text-align: center;
+}
+
+.loginbutton {
+	background-image: url(../../images/loginbutton.png);
+	background-color: transparent;
+	border-color: transparent;
+	width: 121px;
+	height: 36px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;	
+}
+
+#login {
+	margin-top: 8px;
+	float: left;
+	margin-left: 20px;
+}
+
+#register {
+	margin-top: 10px;
+	float: right;
+	margin-right: 16px;
+}
+
+.row {
+	display: table-row;
+}
+
+.aligntop {
+	vertical-align: top;
+}
+
+#table {
+	margin-top: -8px !important;
+}

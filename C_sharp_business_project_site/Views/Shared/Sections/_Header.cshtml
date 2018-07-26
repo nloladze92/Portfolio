@@ -1,0 +1,19 @@
+﻿<!--<a class="logo" href="/"><img src="../Content/Images/Ohni_Logo_Small2.fw.png"></a>-->
+<!--<a class="menu-trigger" role="button" data-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu"><i class="fa fa-3x fa-bars"></i></a>-->
+
+@Html.Partial("~/Views/Shared/Sections/_NavigationMenu.cshtml")
+
+<a class="social-trigger" role="button" data-toggle="collapse" href="#collapseSocial" aria-expanded="false" aria-controls="collapseSocial"><img src="../Content/Images/link.png"></a>
+
+<div class="collapse" id="collapseSocial">
+    <ul>
+        <!--<li><a href="https://www.facebook.com/OhniToken/"><i class="fa fa-facebook"></i></a></li>-->
+        <li><a href="https://twitter.com/ohni_io"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.reddit.com/r/Ohni_Official/"><i class="fa fa-reddit"></i></a></li>
+       <li><a href="https://www.facebook.com/ohniio/"><i class="fa fa-facebook"></i></a></li>
+        <!--<li><a href="http://steamcommunity.com/groups/ohnibank/"><i class="fa fa-steam"></i></a></li>-->
+        <li><a href="https://join.slack.com/t/ohni/shared_invite/enQtMjIwMjQ5MzYwNDgzLWIyZmI0YzI4ZDNhY2MwYjI3NTI0YmNiODc2M2JlMTE5N2Q1NTdmMzQ4MWM0Yjc1MWMwNDZiZTEwZDRmMjUxNzk"><i class="fa fa-slack"></i></a></li>
+        <li><a href="@Url.Action("Appview", "Home")"><i class="fa fa-slack"></i></a></li>
+        <li><a data-toggle="collapse" href="#collapseSocial" aria-expanded="false" aria-controls="collapseSocial"><i class="fa fa-2x fa-close"></i></a></li>
+    </ul>
+</div>

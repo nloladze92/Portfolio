@@ -1,0 +1,13 @@
+[17-Feb-2017 18:09:05 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'nloladze_regis'@'localhost' (using password: YES) in /home/nloladze/public_html/classes/Login.php on line 63
+[17-Feb-2017 18:09:05 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 66
+[17-Feb-2017 18:09:05 UTC] PHP Warning:  Login::dologinWithPostData(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 67
+[17-Feb-2017 18:13:04 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'nloladze@localhost'@'localhost' (using password: YES) in /home/nloladze/public_html/classes/Login.php on line 63
+[17-Feb-2017 18:13:04 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 66
+[17-Feb-2017 18:13:04 UTC] PHP Warning:  Login::dologinWithPostData(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 67
+[17-Feb-2017 18:13:54 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'nloladze@localhost'@'localhost' (using password: YES) in /home/nloladze/public_html/classes/Login.php on line 63
+[17-Feb-2017 18:13:54 UTC] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 66
+[17-Feb-2017 18:13:54 UTC] PHP Warning:  Login::dologinWithPostData(): Couldn't fetch mysqli in /home/nloladze/public_html/classes/Login.php on line 67
+[17-Feb-2017 18:49:59 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/nloladze/public_html/includes/grocerycosts.php on line 308
+[17-Feb-2017 18:51:59 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/nloladze/public_html/includes/grocerycosts.php on line 308
+[17-Feb-2017 18:53:33 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/nloladze/public_html/includes/grocerycosts.php on line 308
+[17-Feb-2017 18:59:29 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/nloladze/public_html/includes/grocerycosts.php on line 308

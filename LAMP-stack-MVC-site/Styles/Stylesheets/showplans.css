@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.icon {
+    background: url(../images/textfield/textfieldjpg.jpg);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+
+	width:251px;
+	height:57px;
+	font-size:20px;
+	color:#FFF;
+	line-height: 24px;
+	
+	
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  
+}
+
+#fontaddress {
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+#businessaddress {
+	background: url(../images/textfield/typeofstore/businessaddress22.jpg);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 251px;
+	height: 150px;
+	font-size: 18px;
+	color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+	overflow-y: hidden;
+	overflow-x: visible;
+	margin: 4px;
+	
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	outline: none;
+	resize: none;
+	font-size: 18px;
+	
+	display: table-cell;
+	
+	
+	
+}
+
+#businessname {
+	background: url(../images/textfield/planstexts/businessname.jpg);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 450px;
+	height: 80px;
+	overflow-y: hidden;
+	overflow-x: visible;
+	resize:both;
+	
+	
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	
+	
+	font-size: 36px;
+	color: #CCC;
+	-webkit-text-stroke: 1px black;
+   color: white;
+   
+   
+   outline: none;
+	resize: none;
+   
+   -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+	
+}

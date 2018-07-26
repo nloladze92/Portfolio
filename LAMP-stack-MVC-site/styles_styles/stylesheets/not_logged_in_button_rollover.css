@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.whatsthis {
+     width: 124px;
+     height: 46px;
+     display:block;
+	 background-size: 100% 100%;
+     background-image: url(../../images/whatsthis.png);
+
+}
+
+.whatsthis:hover {
+     background-image: url(../../images/whatsthis2.png)
+}
+
+.tutorial {
+     width: 124px;
+     height: 46px;
+     display:block;
+	 background-size: 100% 100%;
+     background-image: url(../../images/tutorial.png);
+
+}
+
+.tutorial:hover {
+     background-image: url(../../images/tutorial2.png)
+}
+
+.investors {
+     width: 124px;
+     height: 46px;
+     display:block;
+	 background-size: 100% 100%;
+     background-image: url(../../images/investors.png);
+
+}
+
+.investors:hover {
+     background-image: url(../../images/investors1.png)
+}
+
+.marketplace {
+     width: 124px;
+     height: 46px;
+     display:block;
+	 background-size: 100% 100%;
+     background-image: url(../../images/marketplace.png);
+
+}
+
+.marketplace:hover {
+     background-image: url(../../images/marketplace1.png)
+}
+
+.plans {
+     width: 124px;
+     height: 46px;
+     display:block;
+	 background-size: 100% 100%;
+     background-image: url(../../images/browseplans.png);
+
+}
+
+.plans:hover {
+     background-image: url(../../images/browseplans2.png)
+}

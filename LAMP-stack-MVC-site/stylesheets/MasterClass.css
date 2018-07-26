@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#footer {
+   background: #BCCCDB;
+   height: 20px; 
+   border-top: #CCCCCC 3px solid;
+   color: #FFF;
+   bottom:0;
+    position: fixed;
+   width: 100%;
+}
+
+

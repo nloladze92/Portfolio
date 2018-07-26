@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#userinput {
+	background: url(../images/textfield/userinput.png);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:contain;
+	font: "Courier New", Courier;
+	font-size: 16px;
+	line-height: 20px;
+	overflow: hidden;
+	resize: none;
+	outline: none;
+	color: white;
+	width: 220px;
+	height: 253px;
+
+}
+
+/*
+.text-bar {
+	padding-bottom: 18px;
+	
+}
+*/
+
+
+.button1 {
+  background-image: url(../images/unselected/3dtv.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+  pointer-events: none;
+}
+
+.button2 {
+  background-image: url(../images/unselected/employee.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button3 {
+  background-image: url(../images/unselected/solarpanel.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button4 {
+  background-image: url(../images/unselected/3dprinter.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button5 {
+  background-image: url(../images/unselected/etable1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+
+
+.button6 {
+  background-image: url(../images/unselected/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+
+.button7 {
+  background-image: url(../images/unselected/plasticrecycle.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button8 {
+  background-image: url(../images/unselected/rfid.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button9 {
+  background-image: url(../images/unselected/biodieseltrucks.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button10 {
+  background-image: url(../images/unselected/facialrecog.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button11 {
+  background-image: url(../images/unselected/segway.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button12 {
+  background-image: url(../images/unselected/wifi.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button13 {
+  background-image: url(../images/unselected/arcadegame.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button14 {
+  background-image: url(../images/unselected/website.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button15 {
+  background-image: url(../images/unselected/kiosk.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button16 {
+  background-image: url(../images/unselected/fuelpump.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button17 {
+  background-image: url(../images/unselected/etable1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button18 {
+  background-image: url(../images/unselected/polycart.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button19 {
+  background-image: url(../images/unselected/foodbelt.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+.button20 {
+  background-image: url(../images/unselected/airfilter.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* put the height and width of your image here */
+  height: 90px;
+  width: 90px;
+  border: none;
+}
+
+#submit {
+	background: url(../images/textfield/submit.png);
+	width: 200px;
+	height: 57px;
+}
+
+/*
+.space {margin-top:2cm;}
+*/

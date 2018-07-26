@@ -1,0 +1,664 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+
+	html, body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  background-color: #000;
+	}
+	
+	.slide {
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  
+  display: -moz-box;
+  display: -moz-flex;
+  
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+	  -moz-align-content: center;
+          align-content: center; 
+		  
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  
+  -webkit-align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  
+      -ms-flex-align: center;
+	    align-items: center;  
+		
+		
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+	    -moz-flex-direction: column;
+          flex-direction: column;  
+		  
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  
+  -ms-flex-wrap: nowrap;
+   flex-wrap: nowrap;
+   
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  
+  
+  position: absolute;
+  hight: 100vh;
+  width: 100%;
+  z-index: 2;
+  
+  /*
+  -moz-box-orient: vertical;
+		  -moz-box-align: center; 
+		  display: -moz-box;
+  -moz-align-content: center; 
+  -moz-box-direction: normal;
+  */
+  
+}
+
+/* Page Animations */
+@-webkit-keyframes movetoleft {
+    from {}
+    to { -webkit-transform: translateX(-100%);}
+}
+
+@-webkit-keyframes movetoright {
+    from {-webkit-transform: translateX(-100%);}
+    to { -webkit-transform: translateX(0%);}
+}
+
+@keyframes movetoleft {
+    from {}
+    to { -webkit-transform: translateX(-100%);}
+}
+
+@keyframes movetoright {
+    from {-webkit-transform: translateX(-100%);}
+    to { -webkit-transform: translateX(0%);}
+}
+
+
+/* End of the Page Animations */
+
+.pagetwo {
+  postion: absolute;
+  top: 0px;
+  z-index: 1;
+  background-color: #281A41;
+}
+
+.container.on {
+  -webkit-animation: movetoleft 3s ease both;  /* Chrome, Safari, Opera */
+    -moz-animation: movetoleft 3s ease both; 
+    animation: movetoleft 3s ease both;
+	height: 100vh;
+}
+
+.container.off {
+  -webkit-animation: movetoright 3s ease both;  /* Chrome, Safari, Opera */
+    -moz-animation: movetoright 3s ease both;  
+
+    animation: movetoright 3s ease both;
+}
+
+.menu-section.change {
+  -webkit-animation: movetoleft 3s ease both;  /* Chrome, Safari, Opera */
+    -moz-animation: movetoleft 3s ease both;  
+
+    animation: movetoleft 3s ease both;
+}
+
+.menu-section.changeoff {
+  -webkit-animation: movetoright 3s ease both;  /* Chrome, Safari, Opera */
+    -moz-animation: movetoright 3s ease both;  
+
+    animation: movetoright 3s ease both;
+}
+
+/*
+		2/10/17
+		Implementation of nav menu CSS to be moved to the left and right as it stayed instead of moving
+		Major Error #1
+*/
+
+nav ul.on {
+	-webkit-animation: movetoleft 3s ease both;  /* Chrome, Safari, Opera */
+		-moz-animation: movetoleft 3s ease both;  
+
+    animation: movetoright 3s ease both;
+}
+
+nav ul.changeoff {
+	-webkit-animation: movetoright 3s ease both;  /* Chrome, Safari, Opera */
+	-moz-animation: movetoright 3s ease both;
+    animation: movetoleft 3s ease both;
+}
+
+
+
+.burgerbutton {
+	background-image: url(../images/001homepagestyle/xbutton.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 2em;
+	width: 2em;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+}
+
+
+.container section {
+  width: 100%;
+  height: 100vh;
+  
+  -ms-flex: 1;
+   -moz-box-flex: 1;
+  -moz-flex: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+		  
+  display: -webkit-box;
+  display: -webkit-flex;
+  
+  display: -moz-box;
+  display: -moz-flex;
+  
+  display: -ms-flexbox;
+  display: flex;
+  
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+/*
+.container section:nth-child(1) .image {
+  background-image: url(../../images/statueofliberylowquality.jpg);
+}
+*/
+
+#secondimage {
+  background-image: url(../images/001homepagestyle/cornlowquality.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+#thirdimage {
+  background-image: url(../images/001homepagestyle/barcode.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+#fourthimage {
+  background-image: url(../images/001homepagestyle/chips.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+#fifthimage {
+  background-image: url(../images/001homepagestyle/code.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.4;
+}
+/*
+.container section:nth-child(6) .image {
+  background-image: url(../../images/background.jpg);
+}
+*/
+
+#firstimage {
+	background-image: url(../images/001homepagestyle/statueofliberylowquality.jpg);
+	background-attachment: fixed;
+  	background-size: cover;
+  	width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	z-index: 1;
+	opacity: 0.7;
+}
+
+.container section .stuff {
+  display: -webkit-box;
+  display: -webkit-flex;
+  
+  display: -moz-box;
+  display: -moz-flex;
+  
+  
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  
+   -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -moz-flex-direction: column;
+  
+   -ms-flex-direction: column;
+   flex-direction: column;
+		  
+  -webkit-flex-wrap: nowrap;
+  -moz-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+		  
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+
+  
+  -moz-box-pack: center;
+  -moz-justify-content: center;
+  box-pack: center;
+  
+  -ms-flex-pack: center;
+  justify-content: center;
+  
+  text-align: center;
+  z-index: 2;
+  color: #59A3CA;
+  margin: 0 auto;
+  font-size: 26px;
+  position: relative;
+}
+
+.container section .stuff h2 {
+  margin: 0px;
+}
+
+.close.disappear {
+	visibility: hidden;
+	-moz-transition-duration: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    -o-transition-duration: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+    -webkit-transition-duration: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+	transition: visibility 0s linear 0.5s, opacity 0.5s ease-out;
+
+}
+
+/* The Menu UI */
+
+.menu-toggle {
+  width: 40px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  left: 25px;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.menu-toggle.on .one {
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.menu-toggle.on .two {
+  opacity: 0;
+}
+
+.menu-toggle.on .three {
+  -moz-transform: rotate(-45deg) translate(8px, -10px);
+  -ms-transform: rotate(-45deg) translate(8px, -10px);
+  -webkit-transform: rotate(-45deg) translate(8px, -10px);
+  transform: rotate(-45deg) translate(8px, -10px);
+}
+
+.one,
+.two,
+.three {
+  width: 100%;
+  height: 5px;
+  background: #FFD819;
+  margin: 6px auto;
+  backface-visibility: hidden;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+	/* The pop-up menu of the css when the burger button is clicked */
+
+nav {
+	-webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+	
+	-moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-flex-direction: column;
+	
+    -ms-flex-direction: column;
+	
+	flex-direction: column;
+	
+	-webkit-align-self: center;
+	-moz-align-self: center;
+	
+	align-self: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  list-style: none;
+  margin: 4em auto;
+  text-align: center;
+  top: -3em;
+  position: absolute;
+  width: 100vw;
+}
+
+
+nav ul.hidden {
+  display: none;
+}
+
+nav ul a {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  
+  text-decoration: none;
+  color: #59A3CA;
+  font-size: 3em;
+  line-height: 1.5;
+  width: 100%;
+  display: block;
+}
+
+
+nav ul a:hover {
+  background-color: rgba(40,26,65, 0.9);
+  -moz-transition-duration: background-color 0.4s ease;
+  -o-transition-duration: background-color 0.4s ease;
+  -webkit-transition-duration: background-color 0.4s ease;
+  transition: background-color 0.4s ease;
+}
+
+.loginstyle {
+	color: #59A3CA;
+	font-size: 2em;
+	height: 1.8em;
+	margin-right: 3.8em;
+	padding-bottom: 3em;
+}
+
+.menu-section.on {
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.menu-section {
+	position: fixed;
+	z-index: 7;
+}
+
+
+
+/* REGISTRATION FORM */
+/* REGISTRATION FORM */
+/* REGISTRATION FORM */
+
+
+
+
+
+
+.formbody > h1 {
+  font-family: "Texta", "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #FFD819;
+}
+
+.formbody > h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #59A3CA;
+}
+
+.formbody {
+  max-width: 320px;
+  padding: 20px 16px 40px 16px;
+  text-align: center;
+  z-index: -5;
+}
+
+.form-footer {
+  margin-top: 1em;
+}
+
+.ui-input {
+  position: relative;
+  padding: 0;
+  border: 0;
+  width: 20em;
+}
+
+
+.ui-input input {
+  border: 0;
+  background: none;
+  padding: 16px 0 16px 0;
+  font-size: 24px;
+  outline: 0;
+  width: 100%;
+  tap-highlight-color: transparent;
+  touch-callout: none;
+}
+
+.registerinput + .registerlabel {
+  position: relative;
+  display: block;
+  padding: 8px 0 8px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .0875em;
+  font-weight: 500;
+  text-align: left;
+  color: #CFD3C5;
+}
+.registerinput + .registerlabel::before, .registerinput + .registerlabel::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+}
+.registerinput + .registerlabel::before {
+  background-color: #CFD3C5;
+}
+
+.registerinput + .registerlabel span::after {
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  transform: scaleX(1);
+  white-space: nowrap;
+  color: #fff;
+  background-image: linear-gradient(to right, #FFD819 50%, #59A3CA 0%);
+  background-position: 100% 50%;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  backface-visibility: hidden;
+  perspective: 1000;
+  transform: translateZ(0);
+  transition: background-position 700ms cubic-bezier(0.42, 0.0, 1.0, 1.0);
+}
+
+/* color of the text after it is typed in */
+.ui-input input.filled {
+  color: #59A3CA;
+}
+.ui-input input.filled + label::after {
+  background-color: #59A3CA;
+}
+.ui-input input.filled + label span::after {
+  background-image: linear-gradient(to right, #59A3CA 50%, rgba(255, 255, 255, 0) 0%);
+  background-position: 0% 50%;
+}
+
+/* what happens when you focus on it */
+.ui-input input:focus {
+  color: #FFD819;
+}
+
+.ui-input input:focus + label::after {
+  background-color: #59A3CA;
+}
+
+.ui-input input:focus + label span::after {
+  background-image: linear-gradient(to right, #FFD819 50%, rgba(255, 255, 255, 0) 0%);
+  background-position: 0% 50%;
+}
+
+.__animation {
+  animation-name: fadeIn;
+  animation-duration: 180ms;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+}
+
+.btn {
+  border: 0;
+  background-color: #CFD3C5;
+  padding: 18px 30px 18px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: .0875em;
+  font-weight: 500;
+  border-radius: 100px;
+  outline: 0;
+  transition: background-color 300ms cubic-bezier(0.215, 0.61, 0.355, 1), color 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn:focus, .btn:active,
+.btn:hover {
+  background-color: #FFD819;
+  color: white;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -25%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+/* LOGIN FORM */
+
+.homepageinput
+{
+    background-image: url(../images/001homepagestyle/loginfield.jpg);
+	font-family: "Texta", "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	color: #FFD819;
+    height: 35px;
+    width: 247px;
+	text-indent: 5px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.homepageinput:focus
+{
+    background-image: url(../images/001homepagestyle/loginfield2.jpg);
+    background-size: 100% 100%;
+    height: 35px;
+    width: 247px;
+	outline: none;
+}
+
+.loginbutton {
+	background-image: url(../images/001homepagestyle/loginbutton.png);
+	background-color: transparent;
+	border-color: transparent;
+	width: 135px;
+	height: 42px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	cursor: pointer;	
+	position: absolute;
+	margin-left: .2em;
+}
+
+::selection {
+  background: #59A3CA; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #59A3CA; /* Gecko Browsers */
+}

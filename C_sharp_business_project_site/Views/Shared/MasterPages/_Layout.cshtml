@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Ohni
+        </title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Ohni" />
+        <meta name="keyword" content="Consumer Empowerment" />
+        @Html.Partial("~/Views/Shared/Sections/_StyleSheet.cshtml")
+        @RenderSection("PageStyle", false)
+        @Html.Partial("~/Views/Shared/Sections/_JavaScriptTop.cshtml")
+    </head>
+    <body>
+        <header>
+            <link rel="icon" type="image/png" href="../../favicon-16x16.png" sizes="16x16" />
+
+            <nav>
+                @RenderSection("HeaderBody", false)
+               <a href="#" ><!--<i class="fa fa-5x fa-angle-down"  #for the href link class="down-trigger">--></i></a>
+            </nav>
+        </header>
+        @RenderBody()
+        @Html.Partial("~/Views/Shared/Sections/_Footer.cshtml")
+        <a href="#" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+        @Html.Partial("~/Views/Shared/Sections/_JavaScriptBottom.cshtml")
+        @RenderSection("PageJavaScript", false)
+    </body>
+</html>

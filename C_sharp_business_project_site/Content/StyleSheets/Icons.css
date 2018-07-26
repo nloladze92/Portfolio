@@ -1,0 +1,877 @@
+/*
+Author: Joseph Howard
+MORE INFO HERE!!
+URL: http://www.pencilscoop.com/2013/12/150-free-animated-svg-icons/
+
+<------------ IF THE SCREEN BLINKS ON HOVER IT'S BECAUSE IT'S LOADING AN EXTERNAL IMAGE - TRY THE LINK ABOVE------------------->
+*/
+
+/*=============================================
+[ Page Setup ]
+==============================================*/
+/*=============================================
+[ Icon Wrap]
+==============================================*/
+/*=============================================
+[ Inactive Styles ]
+==============================================*/
+/*=============================================
+[ Hover Styles ]
+/*=============================================
+[ KeyFrame Animations ]
+==============================================*/
+/*=============================================
+[ Inactive Styles ]
+==============================================*/
+/*=============================================
+[ Hover Styles ]
+==============================================*/
+/*=============================================
+[ KeyFrame Animations ]
+==============================================*/
+/*=============================================
+[ Inactive Styles ]
+==============================================*/
+/*=============================================
+[ KeyFrame Animations ]
+==============================================*/
+/*=============================================
+[ Inactive Styles ]
+==============================================*/
+
+.svg-icon {
+    position: absolute;
+}
+
+    @media (min-device-width: 1441px) {
+        .svg-icon {
+            padding-left: 19vw;
+        }
+    }
+
+    @media screen and (min-width: 1204px) and (max-device-width: 1441px) {
+        .svg-icon {
+            right: 2vw;
+        }
+    }
+
+    /*Genral*/
+    /*Specifics*/
+    #filled-picture .sun {
+    fill: #FFF
+}
+#filled-robot .eyes { fill: #FFFFFF }
+#filled-suitcase .buttons { fill: #FFF }
+#filled-tag .dot { fill: #FFF }
+#filled-winner .text { fill: #FFFFFF }
+/*=============================================
+[ Hover Styles ]
+==============================================*/
+#filled-graph:hover .circle { fill: #E3A7C0 }
+#filled-graph:hover .bar_left { fill: #7BC156 }
+#filled-graph:hover .bar_middle { fill: #92D76C }
+#filled-graph:hover .bar_right { fill: #64A242 }
+#filled-graph:hover .front { fill:  }
+#filled-graph:hover .dot_4,
+#filled-graph:hover .dot_3,
+#filled-graph:hover .dot_2,
+#filled-graph:hover .dot_1 { fill: #fff }
+#filled-picture:hover .circle { fill: #B1EB5B }
+#filled-picture:hover .back { fill: #A46B49 }
+#filled-picture:hover .front { fill: #CE8A61 }
+#filled-picture:hover .sky { fill: #DCF5FF }
+#filled-picture:hover .sun { fill: #FF7800 }
+#filled-picture:hover .mountain { fill: #3B8C1E }
+#filled-robot:hover .circle { fill: #E88D70 }
+#filled-robot:hover .ears { fill: #39517A }
+#filled-robot:hover .base { fill: #4C70AF }
+#filled-robot:hover .highlight { fill: #6384BE }
+#filled-robot:hover .antenna { fill: #A0ABBD }
+#filled-robot:hover .eyes { fill: #FFFFFF }
+#filled-rocket:hover .circle { fill: #4BAE97 }
+#filled-rocket:hover .engine { fill: #7D7D7D }
+#filled-rocket:hover .base { fill: #B0CED8 }
+#filled-rocket:hover .window { fill: #8BABB6 }
+#filled-rocket:hover .glass { fill: #FFFFFF }
+#filled-rocket:hover .flame { fill: #FF5400 }
+#filled-screen:hover .circle { fill: #F8B243 }
+#filled-suitcase:hover .circle { fill: #02BD85 }
+#filled-suitcase:hover .top { fill: #9A4C1D }
+#filled-suitcase:hover .bottom { fill: #B75B24 }
+#filled-suitcase:hover .buttons { fill: #C89211 }
+#filled-tag:hover .circle { fill: #D6D6B8 }
+#filled-tag:hover .base { fill: #FFBA00 }
+#filled-tag:hover .dot { fill: #C38E00 }
+#filled-winner:hover .circle { fill: #F8B243 }
+#filled-winner:hover .ribbon { fill: #5BB3F0 }
+#filled-winner:hover .base { fill: #1983CD }
+#filled-winner:hover .text { fill: #FFFFFF }
+/*=============================================
+[ Animation Styles ]
+==============================================*/
+/*LEFT*/
+#filled-winner:hover .text,
+#filled-suitcase:hover .buttons,
+#filled-rocket:hover .glass,
+#filled-robot:hover .eyes,
+#filled-robot:hover .ears,
+#filled-picture:hover .sun,
+#filled-graph:hover .bar_left,
+#filled-browser:hover .screen {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: left;
+    -moz-animation-name: left;
+    -ms-animation-name: left;
+    -o-animation-name: left;
+    animation-name: left;
+}
+/*RIGHT*/
+#filled-winner:hover .base,
+#filled-tag:hover .base,
+#filled-rocket:hover .base,
+#filled-robot:hover .base,
+#filled-picture:hover .mountain,
+#filled-graph:hover .bar_middle,
+#filled-browser:hover .base {
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: right;
+    -moz-animation-name: right;
+    -ms-animation-name: right;
+    -o-animation-name: right;
+    animation-name: right;
+}
+/*TOP RIGHT*/
+#filled-suitcase:hover .top,
+#filled-rocket:hover .engine,
+#filled-robot:hover .highlight,
+#filled-picture:hover .sky,
+#filled-graph:hover .bar_right,
+#filled-graph:hover .dot_4,
+#filled-browser:hover .top {
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: right-top;
+    -moz-animation-name: right-top;
+    -ms-animation-name: right-top;
+    -o-animation-name: right-top;
+    animation-name: right-top;
+}
+/*TOP LEFT*/
+#filled-winner:hover .ribbon,
+#filled-trash:hover .details,
+#filled-thumbsdown:hover .dot,
+#filled-thumbsup:hover .dot,
+#filled-tag:hover .dot,
+#filled-suitcase:hover .bottom,
+#filled-settings:hover .base,
+#filled-screen:hover .stand,
+#filled-rocket:hover .window,
+#filled-robot:hover .antenna,
+#filled-plane:hover .left,
+#filled-picture:hover .front,
+#filled-pencil:hover .base_top,
+#filled-paper:hover .corner,
+#filled-magnify:hover .base,
+#filled-lock:hover .bar,
+#filled-graph:hover .dot_3,
+#filled-flag:hover .shadow,
+#filled-email:hover .paper,
+#filled-disk:hover .top,
+#filled-diamond:hover .top_left,
+#filled-diamond:hover .top_3,
+#filled-clock:hover .minute,
+#filled-camera:hover .flash,
+#filled-calander:hover .number,
+#filled-brush:hover .brush_highlight,
+#filled-browser:hover .green {
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: left-top;
+    -moz-animation-name: left-top;
+    -ms-animation-name: left-top;
+    -o-animation-name: left-top;
+    animation-name: left-top;
+}
+#filled-user:hover .collar_left,
+#filled-screen:hover .logo,
+#filled-rocket:hover .flame,
+#filled-picture:hover .back,
+#filled-pencil:hover .tip,
+#filled-paper:hover .text,
+#filled-message:hover .front,
+#filled-graph:hover .dot_2,
+#filled-folder:hover .front,
+#filled-email:hover .top,
+#filled-diamond:hover .top_2,
+#filled-clock:hover .hour,
+#filled-camera:hover .red,
+#filled-calander:hover .base_bottom,
+#filled-browser:hover .orange {
+    -webkit-animation-delay: .05s;
+    -moz-animation-delay: 0.05s;
+    -ms-animation-delay: 0.05s;
+    -o-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: left-top;
+    -moz-animation-name: left-top;
+    -ms-animation-name: left-top;
+    -o-animation-name: left-top;
+    animation-name: left-top;
+    -webkit-animation-name: left-top;
+    -moz-animation-name: left-top;
+    -ms-animation-name: left-top;
+    -o-animation-name: left-top;
+    animation-name: left-top;
+}
+#filled-user:hover .collar_right,
+#filled-plane:hover .bottom,
+#filled-pencil:hover .wood,
+#filled-message:hover .back,
+#filled-graph:hover .dot_1,
+#filled-folder:hover .back,
+#filled-diamond:hover .top_1,
+#filled-clock:hover .middle,
+#filled-camera:hover .button,
+#filled-camera:hover .lens,
+#filled-camera:hover .lens_inner,
+#filled-brush:hover .brush_tip,
+#filled-browser:hover .red {
+    /*animation-timing-function*/
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -ms-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    /*animation-iteration-count*/
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-name: left-top;
+    -moz-animation-name: left-top;
+    -ms-animation-name: left-top;
+    -o-animation-name: left-top;
+    animation-name: left-top;
+}
+/*Keyframes*/
+@-moz-keyframes left-top { 
+    0% { -webki-transform: translate(-100px, -100px) scale(3,3) }
+    1% { -webkit-transform: translate(-100px, -100px) scale(3,3) }
+    100% { -webkit-transform: translate(0px ,0px) scale(1,1) }
+}
+@-webkit-keyframes left-top { 
+    0% { -webki-transform: translate(-100px, -100px) scale(3,3) }
+    1% { -webkit-transform: translate(-100px, -100px) scale(3,3) }
+    100% { -webkit-transform: translate(0px ,0px) scale(1,1) }
+}
+@keyframes left-top { 
+    0% { transform: translate(-100px, -100px) scale(3,3) }
+    1% { transform: translate(-100px, -100px) scale(3,3) }
+    100% { transform: translate(0px, 0px) scale(1,1) }
+}
+@-moz-keyframes right-top { 
+    0% { -webki-transform: translate(100px, -200px) scale(3,3) }
+    1% { -webkit-transform: translate(100px, -200px) scale(3,3) }
+    100% { -webkit-transform: translate(0px ,0px) scale(1,1) }
+}
+@-webkit-keyframes right-top { 
+    0% { -webki-transform: translate(100px, -200px) scale(3,3) }
+    1% { -webkit-transform: translate(100px, -200px) scale(3,3) }
+    100% { -webkit-transform: translate(0px ,0px) scale(1,1) }
+}
+@keyframes right-top { 
+    0% { transform: translate(100px, -200px) scale(3,3) }
+    1% { transform: translate(100px, -200px) scale(3,3) }
+    100% { transform: translate(0px, 0px) scale(1,1) }
+}
+@-moz-keyframes right { 
+    0% { -webki-transform: translate(100px, 0px) }
+    1% { -webkit-transform: translate(100px, 0px) }
+    100% { -webkit-transform: translate(0px ,0px) }
+}
+@-webkit-keyframes right { 
+    0% { -webki-transform: translate(100px, 0px) }
+    1% { -webkit-transform: translate(100px, 0px) }
+    100% { -webkit-transform: translate(0px ,0px) }
+}
+@keyframes right { 
+    0% { transform: translate(100px, 0px) }
+    1% { transform: translate(100px, 0px) }
+    100% { transform: translate(0px, 0px) }
+}
+@-moz-keyframes left { 
+    0% { -webki-transform: translate(-100px, 0px) }
+    1% { -webkit-transform: translate(-100px, 0px) }
+    100% { -webkit-transform: translate(0px ,0px) }
+}
+@-webkit-keyframes left { 
+    0% { -webki-transform: translate(-100px, 0px) }
+    1% { -webkit-transform: translate(-100px, 0px) }
+    100% { -webkit-transform: translate(0px ,0px) }
+}
+@keyframes left { 
+    0% { transform: translate(-100px, 0px) }
+    1% { transform: translate(-100px, 0px) }
+    100% { transform: translate(0px, 0px) }
+}
+/*=============================================
+[ Inactive Styles ]
+==============================================*/
+/*Genral*/
+.flat-line .icon > path {
+    stroke: #fff;
+    stroke-width: 3px;
+    fill: transparent;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+.flat-line .circle {
+    stroke: #fff;
+    stroke-width: 3px;
+    fill: #010414;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px,0px) scale(1,1);
+    -moz-transform: translate(0px,0px) scale(1,1);
+}
+/*Exceptions*/
+.flat-line .icon > .lightning {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    fill: transparent;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-user .collar_right {
+    fill: #52be7f;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-user .collar_left {
+    fill: #52be7f;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-lightning .bolt {
+    stroke: #fff;
+    stroke-width: 3px;
+    fill: transparent;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-lightning .highlight {
+    fill: transparent;
+    stroke: 0px;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-mic .bars_right rect {
+    fill: #52be7f;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+#line-coffee .top {
+    fill: #52be7f;
+    transform: translate(0px, 0px) scale(1,1);
+    -webkit-transform: translate(0px ,0px) scale(1,1);
+    -moz-transform: translate(0px ,0px) scale(1,1);
+}
+/*Specifics*/
+#line-browser .green {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-browser .orange {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-browser .red {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-browser .screen {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-brush .brush_silver {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-calander .number {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-camera .lens_inner {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-camera .lens {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-camera .strip {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-camera .red {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-clock .seconds {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-clock .middle {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-clock .hour {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-clock .minute {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-clock .face {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-coffee .top {
+    fill: transparent;
+    stroke-width: 3px;
+    stroke: #fff;
+}
+#line-coffee .middle {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-disk .top {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-disk .top_right {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-disk .text {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-email .paper {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-email .text {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-film .top {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-film .bottom {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-folder .paper_front {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-folder .paper_back {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-graph .dot_1,
+#line-graph .dot_2,
+#line-graph .dot_3,
+#line-graph .dot_4 {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-home .hole {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-home .roof { -webkit-transform: translateY(-5px) }
+#line-location .inner {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-lock .keyhole {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-lock .baselight {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-magnify .glass {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-message .dots {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-picture .sun {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-picture .mountain {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-mic .bars_left {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-mic .bars_right rect {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-paper .text {
+    fill: transparent;
+    stroke-width: 0px;
+}
+#line-paper .corner {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-pencil .metal {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-phone .screen {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-phone .details {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-robot .eyes {
+    fill: #FFFFFF;
+    stroke-width: 0px;
+}
+#line-suitcase .buttons {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-tag .dot {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-thumbsdown .dot {
+    fill: #FFFFFF;
+    stroke-width: 0px;
+}
+#line-thumbsup .dot {
+    fill: #FFFFFF;
+    stroke-width: 0px;
+}
+#line-trash .details {
+    fill: #FFF;
+    stroke-width: 0px;
+}
+#line-winner .text {
+    fill: #FFFFFF;
+    : ;
+    stroke-width: 0px;
+}
+#line-spaceship .light {
+    -webkit-transform: translateY(1px);
+    -moz-transform: translateY(1px);
+    transform: translateY(1px);
+}
+/*=============================================
+[ Hover Styles ]
+==============================================*/
+.flat-line:hover .icon {
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+    /*animation-name*/
+    -webkit-animation-name: line-burst;
+    -moz-animation-name: line-burst;
+    -ms-animation-name: line-burst;
+    -o-animation-name: line-burst;
+    animation-name: line-burst;
+    /*animation-duration*/
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -ms-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    /*transform-origin*/
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50px 50px !important;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.flat-line:hover .icon > path {
+    stroke: transparent;
+    stroke-width: 0px;
+}
+.flat-line:hover .circle {
+    stroke: transparent;
+    stroke-width: 0px;
+}
+/*Exceptions*/
+#line-graph:hover .circle {
+    fill: #010414
+}
+#line-graph:hover .bar_left { fill: #7BC156 }
+#line-graph:hover .bar_middle { fill: #92D76C }
+#line-graph:hover .bar_right { fill: #64A242 }
+#line-graph:hover .front { fill:  }
+#line-graph:hover .dot_4,
+#line-graph:hover .dot_3,
+#line-graph:hover .dot_2,
+#line-graph:hover .dot_1 { fill: #fff }
+
+
+#line-picture:hover .circle {
+    fill: #010414
+}
+#line-picture:hover .back { fill: #A46B49 }
+#line-picture:hover .front { fill: #CE8A61 }
+#line-picture:hover .sky { fill: #DCF5FF }
+#line-picture:hover .sun { fill: #FF7800 }
+#line-picture:hover .mountain { fill: #3B8C1E }
+
+#line-robot:hover .circle {
+    fill: #010414
+}
+#line-robot:hover .ears { fill: #39517A }
+#line-robot:hover .base { fill: #4C70AF }
+#line-robot:hover .highlight { fill: #6384BE }
+#line-robot:hover .antenna { fill: #A0ABBD }
+#line-robot:hover .eyes { fill: #FFFFFF }
+
+
+#line-rocket:hover .circle {
+    fill: #010414
+}
+#line-rocket:hover .engine { fill: #7D7D7D }
+#line-rocket:hover .base { fill: #B0CED8 }
+#line-rocket:hover .window { fill: #8BABB6 }
+#line-rocket:hover .glass { fill: #FFFFFF }
+#line-rocket:hover .flame { fill: #FF5400 }
+
+#line-suitcase:hover .circle {
+    fill: #010414
+}
+#line-suitcase:hover .top { fill: #9A4C1D }
+#line-suitcase:hover .bottom { fill: #B75B24 }
+#line-suitcase:hover .buttons { fill: #C89211 }
+
+#line-tag:hover .circle {
+    fill: #010414
+}
+#line-tag:hover .base { fill: #FFBA00 }
+#line-tag:hover .dot { fill: #C38E00 }
+
+@-webkit-keyframes line-burst { 
+     {
+        -webkit-transform: scale(1.1);
+        animation-timing-function: ease-in;
+    }
+    37% {
+        -webkit-transform: scale(1.3);
+        animation-timing-function: ease-out;
+    }
+    55% {
+        -webkit-transform: scale(1.17);
+        animation-timing-function: ease-in;
+    }
+    73% {
+        -webkit-transform: scale(1.05);
+        animation-timing-function: ease-out;
+    }
+    82% {
+        -webkit-transform: scale(1.2);
+        animation-timing-function: ease-in;
+    }
+    91% {
+        -webkit-transform: scale(1.3);
+        animation-timing-function: ease-out;
+    }
+    96% {
+        -webkit-transform: scale(1.2);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+        animation-timing-function: ease-out;
+    }
+}
+@-moz-keyframes line-burst { 
+     {
+        -moz-transform: scale(1,1);
+        animation-timing-function: ease-in;
+    }
+    37% {
+        -moz-transform: scale(1.5,1.5);
+        animation-timing-function: ease-out;
+    }
+    55% {
+        -moz-transform: scale(1.37,1.37);
+        animation-timing-function: ease-in;
+    }
+    73% {
+        -moz-transform: scale(1,1);
+        animation-timing-function: ease-out;
+    }
+    82% {
+        -moz-transform: scale(1.45,1.45);
+        animation-timing-function: ease-in;
+    }
+    91% {
+        -moz-transform: scale(1.5,1.5);
+        animation-timing-function: ease-out;
+    }
+    96% {
+        -moz-transform: scale(1.4,1.4);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        -moz-transform: scale(1,1);
+        animation-timing-function: ease-in;
+    }
+}
+
+

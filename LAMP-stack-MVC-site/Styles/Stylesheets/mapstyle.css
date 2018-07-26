@@ -1,0 +1,67 @@
+table.focus {
+	outline-width: 0px;
+	table-layout: auto;
+	
+}
+
+input.focus {
+	outline: hidden;
+	
+}
+
+.errormessage {
+	background-color:#FFF;
+	font: 12px;
+}
+
+#autocomplete[type="text"]
+{
+    font-size: 36px;
+	color:#FFF;
+	text-align: left;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #FFF;
+	text-align:center;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #FFF;
+	text-align:center;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #FFF;
+	text-align:center;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #FFF;
+	text-align:center;
+}
+
+h2 {color: white;
+font-family:"Courier New", Courier, monospace}
+
+.signedinfont {
+	padding-right: 15px;
+}
+
+.cityfont {
+	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 32px;
+	color: white;
+	text-shadow: 4px 2px #333333;
+	padding-right: 30px;
+}
+
+#mappage {
+	border-color: #CCCCCC;
+	
+}
+
+.noplanstext {
+	color:#FFF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	margin-top: 200px;
+	
+}

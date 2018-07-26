@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.box {
+	background-image: url(../../Images/2Browse_plans_images/box.jpg);
+	background-repeat: no-repeat;
+	width: 110px;
+	height: 34px;
+	margin-top: 13px;
+	padding-top: 6px;
+	z-index: 10;
+	
+}
+
+.z .select {
+    display: none;
+}
+	
+.z:hover .test {
+   background-image: url(../../Images/2Browse_plans_images/hover.jpg);
+		-moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;
+		z-index: 8;
+		width: 177px;
+		height: 306px;
+		position: absolute;
+		display: block;
+}
+
+.map {
+	z-index: 0;
+}
+
+@font-face1 {
+    font-family: gears;
+    src: url(../../Fonts/Gears/GearedSlab-Bold.ttf);
+}
+
+@font-face2 {
+    font-family: ElegantLux;
+    src: url(../../Fonts/ElegantLux/ElegantLux-Mager.otf);
+}
+
+@font-face3 {
+    font-family: baron;
+    src: url(../../Fonts/baron/BaronNeueBlack.otf);
+}
+
+.title {
+	font-family: gears;
+	color: #303F5D;
+	font-size: 24px;
+	-webkit-appearance: none;
+	outline: 0;
+	border: 0;
+	width: 175px;
+	text-align: center;
+	z-index: 0;
+}
+
+.display {
+	font-family: ElegantLux;
+	color: 	#1A6680;
+	font-size: 18px;
+	z-index: 0;
+}
+
+.details {
+	font-family: ElegantLux;
+	color: #666;
+	size: 14px;
+	padding-top: 10px;
+}
+
+.date {
+	font-family: gears;
+	color: #000;
+	font-size: 10px;
+	z-index: 0;
+}
+
+.price {
+	font-family: baron;
+	color: #FFF;
+	margin-top: 18px;
+	font-size: 18px;
+	z-index: 0;
+}
+
+.bottom {
+	vertical-align: bottom;
+	display: inline-block;
+	z-index: 0;
+}
+
+.align {
+	margin-top: 4px;
+}
+
+.hover {
+    background-image: url(../../Images/2Browse_plans_images/hover.jpg);
+	background-position: center;
+	z-index: 1;
+}
+
+#topbackground {
+	background-color: #FFF;
+	width: 100%;
+	height: 132px;
+	border: #666 thin 1px;
+	margin-bottom: -10px;
+	
+}
+
+.select {
+	background-image: url(../../Images/2Browse_plans_images/buttoncategory.jpg);
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 6px;
+}
+
+####### The select and option category ##################
+
+.browseoptions {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: #f8f8f8;
+    color:#888;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:18px}
+}
+
+define {position:relative}
+define:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#aaa;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:8px; top:2px;
+    padding:0 0 2px;
+    border-bottom:1px solid #ddd;
+    position:absolute;
+    pointer-events:none;
+}
+define:before {
+    content:'';
+    right:6px; top:0px;
+    width:20px; height:20px;
+    background:#f8f8f8;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+}

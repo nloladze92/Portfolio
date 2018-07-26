@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#background2 {
+	background-image: url(../../../styles_styles/icons/slider/xhtml/psdslider1/background3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 480px;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+#background2:hover {
+	background-image: url(../../../styles_styles/icons/slider/xhtml/psdslider1/background4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 480px;
+	vertical-align: top;
+	padding-top: 0px;
+}
+
+#title {
+	background-image:url(../../../styles_styles/icons/slider/xhtml/psdslider1/background1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#slider {
+	width: 460px;
+	height: 75px;
+	background-repeat: no-repeat;
+	position: relative;
+	background-image:url(../../../styles_styles/icons/slider/xhtml/psdslider1/slider4.jpg);
+	padding-top: 19px;
+	
+}
+
+#slider .bar {
+	width: 448px;
+	height: 8px;
+	background: #333;
+	top: -4px;
+	left: 4px;	
+	background-color: #6D8997;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+#slider .bar:active {
+	background-color: #33CCFF;
+}
+
+#slider .highlight {
+	position: absolute;
+	width: 388px;
+	padding-bottom: 2px;
+	left: 6px;
+	background-color: #4A4D5C;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	background: rgba(255, 255, 255, 0.25);
+}
+
+.bar input{
+	-webkit-appearance: none;
+	background-color: black;
+	height: 2px;
+}
+
+.bar input::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	position: relative;
+	top: 0px;
+	
+	z-index: 1;
+	width: 11px;
+	height: 11px;
+	
+	cursor: pointer;
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.6);
+	
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+	background-image: url(../button1.jpg), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0F3C4F), color-stop(50%,#00001E), 
+	color-stop(51%,#02132F), color-stop(100%,#CCC));
+}
+
+.bar input::-webkit-slider-thumb:active {
+	background-image: url(../button1.jpg), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFF), color-stop(50%,#FFF), 
+	color-stop(51%,#FFF), color-stop(100%,#FFF));
+}
+
+.bar input:hover ~ #rangevalue,input[type="range"]:active ~ #rangevalue {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+	top: -75px;
+}
+
+/* Tool Tip */
+#rangevalue {
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	font-family:  Arial, sans-serif;
+	display: block;
+	color: #fff;
+	margin: 10px 0;
+	position: relative;
+	left: 44.5%;
+	padding: 6px 12px;
+	border: 1px solid black;
+
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.2), 0px 2px 4px 0px rgba(0,0,0,0.4);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0F3C4F), color-stop(100%,#02132F));
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 18px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+#submit {
+	background-image: url(../../../styles_styles/icons/slider/xhtml/psdslider1/submit1.jpg);
+	width: 160px;
+	height: 55px;
+	background-repeat: no-repeat;
+	margin-top: -30px;
+}

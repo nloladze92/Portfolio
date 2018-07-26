@@ -1,0 +1,4 @@
+[17-Feb-2017 17:55:49 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/nloladze/public_html/server/Smarty/demo/ipaddress.php on line 9
+[17-Feb-2017 17:55:49 UTC] PHP Warning:  file_get_contents(http://ipinfo.io/76.84.55.214): failed to open stream: no suitable wrapper could be found in /home/nloladze/public_html/server/Smarty/demo/ipaddress.php on line 9
+[17-Feb-2017 18:16:59 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/nloladze/public_html/server/Smarty/demo/ipaddress.php on line 9
+[17-Feb-2017 18:16:59 UTC] PHP Warning:  file_get_contents(http://ipinfo.io/76.84.55.214): failed to open stream: no suitable wrapper could be found in /home/nloladze/public_html/server/Smarty/demo/ipaddress.php on line 9

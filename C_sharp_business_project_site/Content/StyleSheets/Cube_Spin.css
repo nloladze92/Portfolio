@@ -1,0 +1,39 @@
+canvas {
+    display: block;
+    background: #010414;
+}
+html,
+body {
+    height: 100%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    body {
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 1024px) {
+    body {
+        -webkit-transform: scale(2);
+        -moz-transform: scale(2);
+        -ms-transform: scale(2);
+        -o-transform: scale(2);
+        transform: scale(2);
+    }
+}
+
+@media only screen and (max-device-width: 540px) {
+    body {
+        -webkit-transform: scale(1.7);
+        -moz-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+        -o-transform: scale(1.7);
+        transform: scale(1.7);
+    }
+    }

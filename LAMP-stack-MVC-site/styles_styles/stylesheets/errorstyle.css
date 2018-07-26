@@ -1,0 +1,53 @@
+body {
+	background-image: url(../background1.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	height: 100%;
+	height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+#body {
+   padding:10px;
+   padding-bottom: 25px;   /* Height of the footer */
+   overflow: hidden;
+}
+
+#header {
+   background-image: url(../images/tutorial/bar.jpg);
+   background-size:100% 100%;
+   width: 100%;
+   height: 34px;
+   padding: 5px;
+   border-bottom: #CCCCCC 3px solid;
+}
+
+#footer {
+   background-image:url(../images/tutorial/bottombar.jpg);
+   width: 100%;
+   height: 20px;   /* Height of the footer */
+   border-top: #CCCCCC 3px solid;
+   overflow:hidden;
+   background-size:100% 100%;
+   color: #FFF;
+   bottom:0;
+   position: absolute;
+}
+
+.signedinfont {
+	padding-right: 15px;
+}
+
+.gobackfont {
+	padding-left: 15px;
+}
+
+.errortext {
+	font-size: 36px;
+	color: #FFF;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight:
+	
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#addressbackground {
+	background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/addressbackground2.png);
+	width: 431px;
+	height: 275px;
+}
+
+#top {
+	vertical-align: top;
+}
+
+#username {
+    background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/username2.png);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	background-size: 100% 100%;
+	width:431px;
+	height:55px;
+	font-size: 25px;
+	color:#FFF;
+	line-height: 24px;
+	padding-left: 165px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+}
+
+#squarefeet {
+    background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/squareft.png);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	background-size: 100% 100%;
+	width:431px;
+	height:55px;
+	font-size: 25px;
+	color:#FFF;
+	line-height: 24px;
+	padding-left: 165px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */ 
+}
+
+#businesscost {
+    background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/cost.png);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	background-size: 100% 100%;
+	width:431px;
+	height:55px;
+	font-size: 25px;
+	color:#FFF;
+	line-height: 24px;
+	padding-left: 165px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */ 
+}
+
+#date {
+    background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/date.png);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	background-size: 100% 100%;
+	width:431px;
+	height:55px;
+	font-size: 25px;
+	color:#FFF;
+	line-height: 24px;
+	padding-left: 165px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */ 
+}
+
+#businessname {
+	background: url(../../../styles_styles/icons/slider/xhtml/psdslider1/address2.png);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width:431px;
+	height:55px;
+	font-size: 20px;
+	color:#FFF;
+	line-height: 24px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */ 
+}
+
+#businessaddress {
+	background: url(../../../styles_styles/images/textfield/typeofstore/Businessblock.png);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 300px;
+	height: 150px;
+	font-size: 20px;
+	color:#FFF;
+	line-height: 24px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */ 
+}
+
+#grocery {
+	background-image:url(../../../styles_styles/images/textfield/typeofstore/grocery.png);
+	
+}
+
+#restaurant {
+	background-image:url(../../../styles_styles/images/textfield/typeofstore/restaurant.png);
+}
+
+#gas {
+	background-image:url(../../../styles_styles/images/textfield/typeofstore/gas.png);
+}

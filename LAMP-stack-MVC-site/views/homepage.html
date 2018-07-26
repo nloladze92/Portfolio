@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Spend Vow</title>
+	<link rel="stylesheet" href="../stylesheets/required/normalize.css">
+    <link rel="stylesheet" href="../stylesheets/001homepage_style2.css">
+    
+    <script>
+	alert("Please use only Chrome or Safari for the testing of this pre-Alpha version of Ohni. The purpose of this is to only showcase the idea of Ohni, that of consumers making plans for businesses and pledging their spending for it. All transactions and information will be linked to an indispensable Ohni Token which is for sale now. This pre-Alpha verison does not work on mobile and runs on older code which is PHP but everything will be updated by the end of the year for new Alpha version by December of 2018. Please register at the top left of the screen to enter.");
+	</script>
+</head>
+
+<body>
+
+	<!-- 2/10/17 -
+  Within this lies the menu toggle (on) class which wraps the entire Menu UI as well as the div class slide -->
+  <div class="menu-section">
+  <div class="menu-toggle">
+  <!-- these act as the back and forth between one state and the others -->
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+  
+  <!-- 2/10/17 -
+  This is the nav for registering and has little to do with the menu toggle on, 
+  but page 2 is actually the mechanism that shifts on and acts as the registration page accessor-->
+  
+  <nav>
+		<ul role="navigation" class="hidden">
+			<li class="loginstyle">
+            <form method="post" action="../index.php" name="loginform" id="backgroundlogin">
+    		Email/Username: <input id="login_input_username" class="homepageinput" type="text" name="user_name" required />
+     		Password: <input id="login_input_password" class="homepageinput" type="password" name="user_password" autocomplete="off" required />
+    		<input type="submit"  name="login" class="loginbutton" id="login" value="" />
+    		</form>
+            </li>
+            <li><a href="#" class="nextpage">Register</a></li>
+			<li><a href="http://spendvow.com/server/Smarty/demo/planview.php">Browse Plans</a></li>
+		</ul>
+	</nav>
+</div>
+	<!-- END of Menu UI -->
+    
+   <!-- Slider -->
+    <div class="slide">
+	<!-- END of Body UI -->
+
+	    <!-- Body UI -->
+    <div class="container">
+  <section>
+    <div id="firstimage" data-type="background" data-speed="2"></div>
+    <div class="stuff" data-type="content"><!--<h1>Welcome</h1>--></div>
+  </section>
+
+  <section>
+    <div id="secondimage" class="image" data-type="background" data-speed="7"></div>
+    <div class="stuff" data-type="content"><span class="close"><h2>This is a test app to better explain what Ohni is.</h2><p>All in one.</p></span></div>
+  </section>
+
+
+  <section>
+    <div id="thirdimage" class="image" data-type="background" data-speed="6"></div>
+    <div class="stuff" data-type="content" data-speed="9"><span class="close">Our
+			MVP will look quite similiar, allowing users
+			to make plans for businesses and pledge
+			their spending behind it. </span></div>
+  </section>
+
+  <section>
+    <div id="fourthimage" class="image" data-type="background" data-speed="5"></div>
+    <div class="stuff" data-type="content"><span class="close">All user activites
+			will be tracked by our ERC20 Ohni Token.</span></div>
+  </section>
+
+  <section>
+    <div id="fifthimage" class="image" data-type="background" data-speed="3"></div>
+    <div class="stuff" data-type="content" data-speed="9"><span class="close">We plan on having more
+    documents uploaded and replacing this web API with a proper integrated mobile app.</span></div>
+  </section>
+
+  <section>
+    <div class="image" data-type="background" data-speed="3"></div>
+    <div class="stuff" data-type="content"><span class="close"><h1>Ohni is about consumer spending uniting together with blockchain technology.</h1></span></div>
+  </section>
+</div>
+
+	</div>
+    
+    <!-- 2/10/17
+    This is actually the second form and is responsible for acting as the go-to, above was the main menu slider -->
+ 
+<div class="pagetwo" align="center">
+  <div class="formbody" >
+  <h1>Spend Vow</h1>
+  <h2>Create a new account</h2>
+ 
+
+  <form method="post" class="form" name="registerform" action="../index.php">
+  
+  <button type="button" class="burgerbutton"></button>
+  
+    <fieldset class="form-fieldset ui-input __animation">
+      <input class="registerinput" type="text" id="username" tabindex="0" pattern="[a-zA-Z0-9]{2,64}" name="user_name" required />
+      <label class="registerlabel" for="username">
+        <span data-text="Username">Username</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="form-fieldset ui-input __animation">
+      <input class="registerinput" type="email" id="email" tabindex="0" name="user_email" required />
+      <label class="registerlabel" for="email">
+        <span data-text="E-mail Address">E-mail Address</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="form-fieldset ui-input __animation">
+      <input class="registerinput" type="password" id="new-password" name="user_password_new" pattern=".{6,}" required autocomplete="off" />
+      <label class="registerlabel" for="new-password">
+        <span data-text="New Password">New Password</span>
+      </label>
+    </fieldset>
+
+    <fieldset class="form-fieldset ui-input __animation">
+      <input class="registerinput" type="password" id="repeat-new-password" name="user_password_repeat" pattern=".{6,}" required autocomplete="off" />
+      <label class="registerlabel" for="repeat-new-password">
+        <span data-text="Repeat New Password">Repeat New Password</span>
+      </label>
+    </fieldset>
+
+    <div class="form-footer">
+      <input type="submit" src="logged_in.php" class="btn" name="register" value="Create Account" />
+    </div>
+  </form>
+</div>
+ 
+ </div>
+    
+    <script src="../scripts/required/codepen.js"></script>
+	<script src="../scripts/001homepage_index.js"></script>
+    <script src="../scripts/required/modernizr.js"></script>
+
+
+</body>
+</html>

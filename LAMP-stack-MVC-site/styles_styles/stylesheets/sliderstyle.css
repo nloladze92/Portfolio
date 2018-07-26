@@ -1,0 +1,154 @@
+
+body {
+	background-image:url(../background1.jpg);
+}
+
+.price-box {
+	background-image: url(../../images/slider%20design/backgroundformcolor.png);
+	background-repeat: repeat;
+	background-color: #FFFFFF;
+	
+}
+
+.ui-widget-content {
+	border: 4px solid #bdc3c7;
+	background: #e1e1e1;
+	color: #222222;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.ui-slider .ui-slider-handle {
+    position: absolute;
+	z-index: 2;
+	width: 5.2em;
+	height: 2.2em;
+	cursor: default;
+	margin: 0 -40px auto !important;
+	text-align: center;	
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+.ui-slider .ui-slider-handle .glyphicon {
+	color: #FFFFFF;
+	margin: 0 3px; 
+	font-size: 11px;
+	opacity: 0.5;
+}
+
+.ui-corner-all {
+	border-radius: 20px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	top: -.9em;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+	border: 1px solid #f9f9f9;
+	background: #39608D;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+	margin-left: -0.5em;
+}
+
+.ui-slider .ui-slider-handle {
+	cursor: pointer;
+}
+
+.ui-slider a,
+.ui-slider a:focus {
+	cursor: pointer;
+	outline: none;
+}
+
+h4.great {
+	background: #39608D;
+	margin: 0 0 20px -40px;
+	padding: 7px 15px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 5px;
+	display: inline-block;
+	-moz-box-shadow:    2px 4px 5px 0 #ccc;
+  	-webkit-box-shadow: 2px 4px 5px 0 #ccc;
+  	box-shadow:         2px 4px 5px 0 #ccc;
+}
+
+.total {
+	border-bottom: 5px solid #39608D;
+	/*display: inline;
+	padding: 10px 5px;*/
+	position: relative;
+	padding-bottom: 20px;
+}
+
+.total:before {
+	content: "";
+	display: inline;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	height: 3px;
+	background: #7f8c8d;
+	opacity: 0.5;
+}
+
+.price-slider {
+	margin-bottom: 50px;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.form-pricing {
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+
+.price-form label {
+	font-weight: 200;
+	font-size: 21px;
+	color: #000;
+	display: block;
+}
+
+.price-form {
+	padding: 20px;
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	font-family: Verdana, Geneva, sans-serif, color;
+	font-size: 18px;
+	/*-moz-box-shadow:    0 5px 5px 0 #ccc;
+  	-webkit-box-shadow: 0 5px 5px 0 #ccc;
+  	box-shadow:         0 5px 5px 0 #ccc;*/
+}
+
+.thirdtableboxes {
+	background: #ffffff;
+	height: 230px;
+	width: 120px;
+	border: 1px solid #eeeeee;
+	border-radius: 4px;
+	font-family: Verdana, Geneva, sans-serif, color;
+	font-size: 18px;
+	/*-moz-box-shadow:    0 5px 5px 0 #ccc;
+  	-webkit-box-shadow: 0 5px 5px 0 #ccc;
+  	box-shadow:         0 5px 5px 0 #ccc;*/
+}
+
+
+.ui-slider-range-min {
+	background: #2980b9;
+}
+
+/* HR */

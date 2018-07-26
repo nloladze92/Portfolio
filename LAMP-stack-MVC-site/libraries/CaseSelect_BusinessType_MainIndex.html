@@ -1,0 +1,60 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title></title>
+
+<script>
+
+
+	
+		var feetcount = window.parent.document.getElementById("mappage").contentWindow.document.getElementById("squarefeet").value;
+			
+			function necessitiesoptions() {
+				
+			if ( fifthselection.options[fifthselection.selectedIndex].value == "gas" ) {
+			document.getElementById("squarefeet2").value = feetcount;
+		  	document.forms["sumbitnecessities"].submit();
+	 			
+				} else if (fifthselection.options[fifthselection.selectedIndex].value == "grocery" ) {
+					document.getElementById("squarefeet2").value = feetcount;
+		  			document.forms["sumbitnecessities"].submit();
+				}
+					else {
+					fifthselection.options[fifthselection.selectedIndex].value == "restaurant"
+					document.getElementById("squarefeet2").value = feetcount;
+		  			document.forms["sumbitnecessities"].submit();
+					}
+
+		   } 
+		   
+		   list.addEventListener('click', hide, false);
+		   
+
+</script>
+</head>
+
+<body>
+
+
+<div id="4box">
+  <font color="#CCCCCC"> What sort of business is this? </font>
+	<form method="post" action="../index.php" name="sumbitnecessities" target="_parent">
+<select id="fifthselection" onchange="necessitiesoptions();" name="biztype">
+<option value=""></option>
+<option title="gas" value="gas"> Gas Station </option>
+<option title="grocery" value="grocery"> Grocery Store </option>
+<option title="restaurant" value="restaurant"> Restaurant </option>
+</select>
+<input type="text" id="squarefeet2" class="squarefeet"  name="squarefeet" />
+</form>
+</div>
+
+
+
+</body>
+</html>

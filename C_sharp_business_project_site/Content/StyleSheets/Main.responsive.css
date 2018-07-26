@@ -1,0 +1,557 @@
+
+
+
+
+@media screen and (min-width: 1024px) and (max-device-width: 1441px) {
+
+    .blog-post p {
+        font-size: 18px;
+    }
+
+    header nav .container h1 {
+        font-size: 360px;
+        font-weight: 300;
+        margin-top: -97vh;
+        margin-left: -10vw;
+    }
+
+    .countdown-container {
+        margin-top: -32vh;
+        margin-left: 6vw;
+    }
+
+    .countdown-value {
+        font-size: 88px;
+        font-weight: 300;
+    }
+
+    .countdown-unit {
+        font-size: 38px;
+    }
+   
+    .address {
+        margin-left: 12vw;
+        margin-top: -7vh;
+    }
+
+        .address h5 {
+            font-size: 48px;
+            margin-bottom: 1vh;
+        }
+
+        .address h6 {
+            font-size: 34px;
+            margin-bottom: 1vh;
+        }
+
+        .address p {
+            font-size: 28px;
+            margin-bottom: 1vh;
+        }
+
+    header {
+        border-bottom: 3px solid #070523;
+    }
+
+    .blog-post p {
+        font-size: 18px;
+    }
+
+    .why-choose h3 {
+        color: #eeebd9;
+        font-weight: 300;
+        font-size: 48px;
+    }
+
+    .move {
+        display: none;
+    }
+
+    .bgvid {
+        padding-top: 0vh;
+    }
+
+    .countdown-item {
+        padding: 2vw 3vw;
+    }
+
+
+    /* Animation Boxes */
+
+    #head-of-box {
+        font-size: 48px;
+        padding-bottom: 3vh;
+    }
+
+    .aniheadtext {
+        font-size: 56px;
+    }
+
+    .svg-icon {
+        position: absolute;
+        margin-left: 16.5vw;
+        margin-top: -3vh;
+    }
+
+    /* second paragraph */
+
+    .default {
+        font-size: 62px;
+        padding: 0vw;
+    }
+
+    /*Nav Menu Display*/
+    .navToggle {
+        width: 70px;
+        height: 92px;
+        top: 6vh;
+        margin-left: 3vw;
+    }
+
+        .navToggle .icon {
+            top: 1vh;
+            width: 70px;
+            height: 9px;
+        }
+
+            .navToggle .icon:before, .navToggle .icon:after {
+                width: 70px;
+                height: 9px;
+            }
+
+            /* height of bars before they are clicked */
+
+            .navToggle .icon:before {
+                top: 32px;
+            }
+
+            .navToggle .icon:after {
+                top: 32px;
+            }
+
+        /* This dictates the nav toggle once clicked space between the bars */
+
+        .navToggle:hover .icon:before {
+            top: -14px;
+        }
+
+        .navToggle:hover .icon:after {
+            top: 14px;
+        }
+
+        .navToggle.open .icon:before {
+            top: 14px;
+        }
+
+        .navToggle.open .icon:after {
+            top: 14px;
+        }
+
+    /* The menu itself */
+    #menu {
+        top: 12vh;
+        margin-left: 8vw;
+        width: 18vw;
+    }
+
+        #menu ul {
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        #menu li {
+            margin: 5px 0;
+            padding: 4px 0;
+            letter-spacing: 0.1em;
+        }
+
+        #menu.active {
+            height: 48vh;
+            border-bottom: 5px solid #eeebd9;
+        }
+}
+
+    /*
+        ------------------------------------------
+
+
+        TABLETS
+
+
+        ------------------------------------------
+    */
+
+
+
+@media only screen and (min-device-width: 540px) and (max-device-width: 1024px) {
+
+    .blog-post p {
+        font-size: 16px;
+    }
+
+    header {
+        height: 34vh;
+        border-bottom: 3px solid #070523;
+    }
+
+    #demo-canvas {
+        display: none;
+    }
+
+    header nav .container h1 {
+        font-size: 120px;
+        font-weight: 300;
+        margin-top: 1vh;
+    }
+
+    .countdown-container {
+        margin-top: -10vh;
+        margin-left: 9vw;
+    }
+
+    .countdown-value {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .address {
+        margin-left: -2vw;
+        margin-top: -3.5vh;
+    }
+
+        .address h5 {
+            font-size: 25px;
+            margin-bottom: 0vh;
+        }
+
+        .address h6 {
+            font-size: 18px;
+            margin-bottom: 0vh;
+        }
+
+        .address p {
+            font-size: 12px;
+            margin-bottom: 1vh;
+        }
+
+    .why-choose h3 {
+        color: #eeebd9;
+        font-weight: 300;
+        font-size: 40px;
+        padding-top: 4vh;
+    }
+
+
+    .move {
+        display: none;
+        /*font-size: 34px;
+        line-height: 38px;
+        font-weight: 300;
+        position: absolute;
+        color: #eeebd9;
+            */
+    }
+
+    .countdown-unit {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .countdown-item {
+        padding: 1vw;
+    }
+
+    /*Margins*/
+
+    .blog-post .post {
+        padding: 5vw;
+        padding-bottom: 0vh;
+    }
+
+    .bgvid {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Margins for the text box and descriptions*/
+
+    .default {
+        font-size: 64px;
+        padding-bottom: -4vw;
+    }
+
+    #shift {
+        padding-bottom: 0vh;
+    }
+
+    #head-of-box {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-bottom: 2vh;
+    }
+
+    #text-box {
+        padding-right: 3vw;
+    }
+
+    .svg-icon {
+        display: block;
+        margin-right: 15vw;
+        top: -15px;
+    }
+
+    /*Nav Menu Display*/
+    .navToggle {
+        width: 30px;
+        height: 24px;
+        top: 2vh;
+        margin-left: 3vw;
+    }
+
+        .navToggle .icon {
+            top: 1vh;
+            width: 30px;
+            height: 3px;
+        }
+
+            .navToggle .icon:before, .navToggle .icon:after {
+                width: 30px;
+                height: 3px;
+            }
+
+            /* height of bars before they are clicked */
+
+            .navToggle .icon:before {
+                top: 6px;
+            }
+
+            .navToggle .icon:after {
+                top: 6px;
+            }
+
+        /* This dictates the nav toggle once clicked space between the bars */
+
+        .navToggle:hover .icon:before {
+            top: -6px;
+        }
+
+        .navToggle:hover .icon:after {
+            top: 6px;
+        }
+
+        .navToggle.open .icon:before {
+            top: 6px;
+        }
+
+        .navToggle.open .icon:after {
+            top: 6px;
+        }
+
+    /* The menu itself */
+    #menu {
+        top: 4.3vh;
+        margin-left: 5vw;
+        width: 16vw;
+    }
+
+        #menu ul {
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        #menu li {
+            margin: 3px 0;
+            padding: 2px 0;
+            letter-spacing: 0.1em;
+        }
+
+        #menu.active {
+            height: 165px;
+            border-bottom: 3px solid #eeebd9;
+        }
+}
+
+
+
+
+
+
+
+        /*mobile*/
+
+@media only screen and (max-width: 540px) {
+
+    .blog-post p {
+        font-size: 14px;
+    }
+
+    header {
+        height: 42vh;
+        border-bottom: 3px solid #070523;
+    }
+
+    #demo-canvas {
+        display: none;
+    }
+
+
+    .larger {
+        display: none;
+    }
+
+        header nav .container h1 {
+        font-size: 90px;
+        font-weight: 300;
+        margin-top: 4vh;
+        margin-left: -5vw;
+    }
+
+    #raise {
+        margin-top: 2vh;
+    }
+    
+    .address {
+        margin-left: 3vw;
+        margin-top: 0vh;
+    }
+
+        .address h5 {
+            font-size: 16px;
+            margin-bottom: 1vh;
+        }
+
+        .address h6 {
+            font-size: 12px;
+            margin-bottom: 1vh;
+        }
+
+        .address p {
+            font-size: 12px;
+            margin-bottom: 1vh;
+        }
+
+    .why-choose h3 {
+        color: #eeebd9;
+        font-weight: 200;
+        font-size: 26px;
+    }
+
+    .countdown-container {
+        margin-top: -8vh;
+        margin-left: 7vw;
+    }
+
+    .countdown-value {
+        font-size: 16px;
+    }
+
+    .countdown-unit {
+        font-size: 12px;
+    }
+
+    .countdown-item {
+        padding: 1vw;
+    }
+
+    /*Margins*/
+
+    .blog-post .post {
+        padding: 3vw;
+    }
+
+    .default {
+        font-size: 48px;
+        padding: 5vw;
+    }
+    #shift {
+        padding-bottom: 1vh;
+    }
+    #head-of-box {
+        margin-left: 14vw;
+        padding-bottom: 2vh;
+    }
+
+    #text-box {
+        padding-right: 4vw;
+        padding-left: 6vw;
+    }
+
+    .svg-icon {
+        display: none;
+    }
+
+    .move {
+        display: none;
+    }
+
+    /*Nav Menu Display*/
+    .navToggle {
+        width: 30px;
+        height: 18px;
+        top: 4vh;
+        margin-left: 3vw;
+    }
+
+        .navToggle .icon {
+            top: 4vh;
+            width: 30px;
+            height: 6px;
+        }
+
+            .navToggle .icon:before, .navToggle .icon:after {
+                width: 30px;
+                height: 6px;
+            }
+
+            /* height of bars before they are clicked */
+
+            .navToggle .icon:before {
+                top: 10px;
+            }
+
+            .navToggle .icon:after {
+                top: 10px;
+            }
+
+        /* This dictates the nav toggle once clicked space between the bars */
+
+        .navToggle:hover .icon:before {
+            top: -10px;
+        }
+
+        .navToggle:hover .icon:after {
+            top: 10px;
+        }
+
+        .navToggle.open .icon:before {
+            top: 10px;
+        }
+
+        .navToggle.open .icon:after {
+            top: 10px;
+        }
+
+        /* The menu itself */
+    #menu {
+        top: 6vh;
+        margin-left: 5vw;
+        width: 24vw;
+    }
+
+        #menu ul {
+            font-size: 12px;
+            font-weight: 100;
+        }
+
+        #menu li {
+            margin: 3px 0;
+            padding: 2px 0;
+            letter-spacing: 0.1em;
+        }
+
+        #menu.active {
+            height: 144px;
+            border-bottom: 2px solid #eeebd9;
+        }
+
+    }

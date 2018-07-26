@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* CSS Document */
+.crop {
+    width: 320px;
+    height: 317px;
+    overflow: hidden;
+	margin-bottom: 17px;
+	margin-top: 14px;
+}
+
+.crop img {
+    width: 320px;
+    height: 280px;
+   
+}
+
+/* This is the first textfield for the square feet */
+.icon {
+    background: url(../images/textfield/textfieldjpg.jpg);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	width:251px;
+	height:57px;
+	font-size:20px;
+	color:#FFF;
+	line-height: 24px;
+	padding-bottom: 10px;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+}
+
+/* This is the second textfield for the cost of the plan or 'total-cost' */
+.icon2 {
+    background: url(../images/textfield/textfieldjpg.jpg);
+	background-repeat: no-repeat;
+	font: "Courier New", Courier;
+	width:251px;
+	height:57px;
+	font-size:20px;
+	color:#FFF;
+	line-height: 24px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	text-align: center;
+}
+
+	#BusinessTitleFont {
+	color: white;	
+	}
+
+#tableoptions {
+	padding-top: 10px;
+	width: 474px;
+}
+
+.links1 {
+	 text-align:right;
+
+}
+
+.gobackfont {
+	padding-left: 15px;
+	margin-bottom: 10px;
+}
+
+.signedinfont {
+	padding-right: 15px;
+	margin-bottom: 10px;
+}
+
+#businessname {
+	background: url(../images/textfield/typeofstore/businessname.jpg);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 220px;
+	height: 90px;
+	overflow-y: hidden;
+	overflow-x: visible;
+	resize:both;
+	
+	
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	
+	
+	font-size: 36px;
+	color: #CCC;
+	-webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      2px 2px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+	
+}
+
+#businesstype {
+	vertical-align: middle;
+	width: 220px;
+	padding-left: 1px;
+}
+
+#businessaddress {
+	background: url(../images/textfield/typeofstore/businessaddress.jpg);
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 220px;
+	height: 120px;
+	font-size: 18px;
+	color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+	overflow-y: hidden;
+	overflow-x: visible;
+	margin: 4px;
+	margin-top: 10px;
+	text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+	
+}
+
+#fontaddress {
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+
+#selectedimages {
+visibility : hidden;
+}

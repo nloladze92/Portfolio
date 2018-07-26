@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Initial body */
+/*
+body {
+  left: 0;
+  margin: 0;
+  position: relative;
+  background-image: url(../styles_styles/background1.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+*/
+
+body {
+background: url(../styles_styles/background1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#body {
+   padding-top: 6em;
+	padding-bottom: 10px;
+   /* Height of the footer */
+   position: relative;
+}
+
+#top {
+	padding-left: 22em;
+	position: absolute;
+}
+
+.logo {
+	position: absolute;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+
+/* Basic styling */
+
+.menu {
+  background-color: #281A41;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+ padding-top: 2.5em;
+ margin-top: -1em;
+}
+
+/* Basic styling */
+
+.menu ul {
+  border-top: 1px solid #CFD3C5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #CFD3C5;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 3em; 
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+	text-indent: 2em;
+}
+
+.burgerbutton {
+	background-image: url(../images/001homepagestyle/xbutton.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 2.5em;
+	width: 2.5em;
+	position: fixed;
+	top: 1em;
+}
+
+.menu li:hover {
+	background-color: #FFD819;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 1.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.icon-menu {
+ position: absolute;
+	top: 1em;
+  left: 2em;
+  font-size: 1.5em;
+  color: #FFD819;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: "Texta", "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+	z-index: 500;
+}
+
+.icon-menu.trigger {
+	display: none;	
+}
