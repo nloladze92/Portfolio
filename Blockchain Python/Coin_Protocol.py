@@ -22,7 +22,7 @@ from urllib.parse import urlparse
 class Blockchain:
     
     def __init__(self):
-        self.chain =  []
+        self.chain = []
         self.transactions = []
         self.create_block(proof = 1, previous_hash = '0')
         self.nodes = set()
@@ -98,10 +98,10 @@ class Blockchain:
                 if length > max_length and self.is_chain_valid(chain):
                     max_length = length
                     longest_chain = chain
-            if longest_chain:
-                self.chain = longest_chain
-                return True
-            return False
+        if longest_chain:
+            self.chain = longest_chain
+            return True
+        return False
         
         
         # part 2 - mining our blockchain
@@ -121,7 +121,7 @@ def mine_block():
     previous_proof = previous_block['proof']
     proof = blockchain.proof_of_work(previous_proof)
     previous_hash = blockchain.hash(previous_block)
-    blockchain.add_transactions(sender = node_address, receiver = 'Nik', amount = 1)
+    blockchain.add_transaction(sender = node_address, receiver = 'Nik', amount = 1)
     block = blockchain.create_block(proof, previous_hash)
     response = {'message': "Congratulations, you just mined a block!",
                 'index': block['index'],
@@ -152,7 +152,7 @@ def is_valid():
 def add_transaction():
     json = request.get_json()
     transaction_keys = ['sender', 'receiver', 'amount']
-    if not all (key in json for key in transaction_keys):
+    if not all(key in json for key in transaction_keys):
         return 'Some elements of the transaction are missing', 400
     index = blockchain.add_transaction(json['sender'], json['receiver'], json['amount'])
     response = {'message': f'This transaction will be added to Block {index}'}
