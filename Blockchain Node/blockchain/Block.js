@@ -37,6 +37,12 @@ class Block {
         const { timestamp, lastHash, data } = block;
         return Block.hash(timestamp, lastHash, data);
     }
+
+    static adjustDifficulty(lastBlock, currentTime){
+        let {difficulty } = lastBlock;
+        difficulty = lastBlock.timestamp + MINE_RATE > currentTime ? difficulty + 1  : difficulty -1;
+        return difficulty;
+    }
 }
 
 module.exports = Block;
