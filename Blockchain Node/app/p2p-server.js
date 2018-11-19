@@ -4,8 +4,9 @@ const P2P_PORT = process.env.P2P_PORT || 5001;
 const peers = process.env.PEERS ? process.env.PEERS.split(',') : [];
 
 class P2pServer {
-    constructor(blockchain) {
+    constructor(blockchain, transactionPool) {
         this.blockchain = blockchain;
+        this.transactionPool = transactionPool;
         this.sockets = [];
     }
 
@@ -29,18 +30,26 @@ class P2pServer {
     connectSocket(socket) {
         this.sockets.push(socket);
         console.log('Socket connected.');
-
-        this.messsageHandler(socket);
-
-        socket.send(JSON.stringify(this.blockchain.chain));
+        this.messsageHandler(socket);  
+        this.sendChain(socket);
     }
 
     messsageHandler(socket) {
         socket.on('message', message => {
             const data = JSON.parse(message);
-            console.log('data', data);
+            //console.log('data', data);
+            this.blockchain.replaceChain(data);
         });
     }
+
+    sendChain(socket) {
+        socket.send(JSON.stringify(this.blockchain.chain));
+    }
+
+    syncChains() {
+        this.sockets.forEach(socket => this.sendChain(socket));
+    }
+    
 }
 
 module.exports = P2pServer;
