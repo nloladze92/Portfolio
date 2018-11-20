@@ -32,7 +32,9 @@ app.get('/transactions', (req, res) => {
 
 app.post('/transact', (req, res) => {
     const { recipient, amount } = req.body;
+    //make sure the blockchain, bc is sent too
     const transaction = wallet.createTransaction(recipient, amount, tp);
+    p2pServer.broadcastTransaction(transaction);
     res.redirect('/transactions');
 });
 

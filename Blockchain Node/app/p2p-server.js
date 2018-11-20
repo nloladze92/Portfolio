@@ -62,14 +62,14 @@ class P2pServer {
         socket.send(JSON.stringify({
             type: MESSAGE_TYPES.transaction,
             transaction}));
-    }
+    } 
 
     syncChains() {
         this.sockets.forEach(socket => this.sendChain(socket));
     }
 
     broadcastTransaction(transaction) {
-        this.socket.forEach(socket => this.sendTransaction(socket, transaction));
+        this.sockets.forEach(socket => this.sendTransaction(socket, transaction));
     }
 
 }
