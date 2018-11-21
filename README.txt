@@ -1,4 +1,6 @@
-The blockchain project is a class I'm taking.
+The Node Blockchain is a complete blockchain; with a wallet, balance and even a transaction pool.
+
+The Python blockchain is a simpler blockchain with a nominal token layer over it. It also features a .sol script.
 
 The C sharp project is just a simple ASP.net website.
 
