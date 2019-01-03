@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="nik-loladzes-porftolio">Nik Loladze’s Porftolio</h1>
 <p><a href="https://nodejs.org/en/download/"><img src="https://i.ibb.co/8sxWcrw/button-node.png" alt="Node"></a> <a href="https://www.npmjs.com/get-npm"><img src="https://dabuttonfactory.com/button.png?t=NPM&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="Node"></a> <a href="https://remix.ethereum.org/#optimize=false&amp;version=soljson-v0.4.17+commit.bdeb9e52.js"><img src="https://dabuttonfactory.com/button.png?t=Solidity+.0.4.17&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://infura.io/"><img src="https://dabuttonfactory.com/button.png?t=Infuria&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://web3js.readthedocs.io/en/1.0/"><img src="https://dabuttonfactory.com/button.png?t=Web3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://www.anaconda.com/download/"><img src="https://dabuttonfactory.com/button.png?t=Python+3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=c00&amp;ebgc=900" alt="Node"></a></p>
 <hr>
