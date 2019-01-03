@@ -12,6 +12,12 @@ gantt
     Web Development      :2013-01-01  , 1200d
     Blockchain      :2016-01-01, 800d
 ```
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+
 
 ## Kickstarter Solidity Course
 ![Solidity Contract](https://i.ibb.co/b5wTQJt/Kickstarter.jpg)
