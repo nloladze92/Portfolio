@@ -1,9 +1,13 @@
-# Product Name
-> Short blurb about what your product does.
+# Nik Loladze's Porftolio
+> A combination of projects in cryptocurrency.
 
 [![Solidity Version][0.4.17]
+[![NPM Version][npm-image]][npm-url]
+
+[!(https://ibb.co/g9W5VS8)](https://nodejs.org/en/download/)
+
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![forthebadge](https://forthebadge.com/images/badges/certified-snoop-lion.svg)](http://forthebadge.com)
 
 No. 1 Solidity ~ Contracts written in solidity, with three contracts written: a simple Inbox display to screen, a more complex Lottery contract and a sophisticated Kickstarter contract with a factory contract attached to it. Includes a rudimentary Youtube React API and a React implementation of the lottery contract. Details for how to plug in and interact with the Kickstarter contract and API are detailed below. 
 
@@ -19,14 +23,42 @@ No. 5 ~ This is where I learned to code through repetition in the early 2010s. A
 
 Unfortunately I am unable to add the Ruby work I did here back in very early 2013.
 
-![](/pictures/Kickstater.jpg)
+## Kickstarter Solidity Course
 
-## Installation
+![](/Pictures/Kickstater.jpg)
 
-OS X & Linux:
+To Setup:
+1. Clone Repo [Here](https://github.com/dbader/)
+2. CD into directory
+3. Install dependencies (`npm install`)
+4. Run the program (`npm run dev`)
+5. Navigate to localhost 3000 (<http://localhost:3000/>)
 
+## Release History
+
+* Create
+    * CHANGE: Update docs (module code remains unchanged)
+* 0.2.0
+    * CHANGE: Remove 
+    * ADD: Add `init()`
+* 0.1.1
+    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
+* 0.1.0
+    * The first proper release
+    * CHANGE: Rename `foo()` to `bar()`
+* 0.0.1
+    * Work in progress
+
+Clone Repo Here
+CD into directory
 ```sh
-npm install my-crazy-module --save
+npm install
+
+then:
+
+npm run dev
+
+Navigate to 
 ```
 
 Windows:
@@ -50,20 +82,7 @@ make install
 npm test
 ```
 
-## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
 
 ## Meta
 
@@ -71,7 +90,7 @@ Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@examp
 
 Distributed under the XYZ license. See ``LICENSE`` for more information.
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+
 
 ## Contributing
 
