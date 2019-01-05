@@ -33,3 +33,9 @@ C:\Users\niklo\Documents\Ohni\Ohni\obj\Debug\Ohni.csprojResolveAssemblyReference
 C:\Users\niklo\Documents\Ohni\Ohni\obj\Debug\Ohni.dll
 C:\Users\niklo\Documents\Ohni\Ohni\obj\Debug\Ohni.pdb
 C:\Users\niklo\Documents\Ohni\Ohni\bin\Spark.dll
+C:\Users\niklo\Documents\Backups\Backup 3.0\Ohni\obj\Debug\Ohni.csprojResolveAssemblyReference.cache
+C:\Users\niklo\Documents\Backups\Backup 3.0\Ohni\obj\Debug\Ohni.dll
+C:\Users\niklo\Documents\Backups\Backup 3.0\Ohni\obj\Debug\Ohni.pdb
+C:\Users\niklo\Documents\Projects\4. C Sharp Crypto Company Website (discontinued)\obj\Debug\Ohni.csprojResolveAssemblyReference.cache
+C:\Users\niklo\Documents\Projects\4. C Sharp Crypto Company Website (discontinued)\obj\Debug\Ohni.dll
+C:\Users\niklo\Documents\Projects\4. C Sharp Crypto Company Website (discontinued)\obj\Debug\Ohni.pdb

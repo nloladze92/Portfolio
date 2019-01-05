@@ -189,7 +189,6 @@
     <Content Include="Content\StyleSheets\animate.min.css" />
     <Content Include="Content\StyleSheets\Blocks.css" />
     <Content Include="Content\StyleSheets\bootstrap.min.css" />
-    <Content Include="Content\StyleSheets\Index.css" />
     <Content Include="Content\StyleSheets\NavMenu.css" />
     <Content Include="Content\StyleSheets\site.css" />
     <Content Include="Content\StyleSheets\TeamMembers.css" />

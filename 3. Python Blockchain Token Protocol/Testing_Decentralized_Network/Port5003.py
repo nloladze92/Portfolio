@@ -51,7 +51,7 @@ class Blockchain:
                 check_proof = True
             else: 
                 new_proof += 1
-            return new_proof
+        return new_proof
                 
     def hash(self, block):
         encoded_block = json.dumps(block, sort_keys = True).encode()
@@ -81,7 +81,6 @@ class Blockchain:
                                   'amount': amount})
         previous_block = self.get_previous_block()
         return previous_block['index'] + 1
-    
         
     def add_node(self, address):
         parsed_url = urlparse(address)
@@ -159,6 +158,9 @@ def add_transaction():
     response = {'message': f'This transaction will be added to Block {index}'}
     return jsonify(response), 201
 
+#part 3 - decentralizing our blockchain
+#connecting new nodes
+@app.route('/connect_node', methods = ['POST'])
 def connect_node():
     json = request.get_json()
     nodes = json.get('nodes')
@@ -166,7 +168,7 @@ def connect_node():
         return "No node", 400
     for node in nodes:
         blockchain.add_node(node)
-    response = {'message': 'All the nodes are now connected. The Hadcoin Blockchain now contains the following nodes:',
+    response = {'message': 'All the nodes are now connected. The Nikcoin Blockchain now contains the following nodes:',
                 'total_nodes': list(blockchain.nodes)}
     return jsonify(response), 201
 
@@ -175,9 +177,9 @@ def connect_node():
 def replace_chain():
     is_chain_replaced = blockchain.replace_chain()
     if is_chain_replaced:
-        response = {'message': 'The node had different chains so the chain was replaced by the longest one.',
+        response = {'message': 'The node had different chains so the chain was replaced b the longest one.',
                     'new_chain': blockchain.chain}
-    else:
+    else: 
         response = {'message': 'All good. The chain is the largest one.',
                     'actual_chain': blockchain.chain}
     return jsonify(response), 200   
@@ -192,4 +194,3 @@ app.run(host='0.0.0.0', port = 5003)
             
             
             
-        

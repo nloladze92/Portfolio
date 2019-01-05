@@ -188,6 +188,7 @@ footer p.copyright{
     }
 
         .achievements h3:after {
+            content: '';
             display: block;
             width: 60px;
             height: 2px;

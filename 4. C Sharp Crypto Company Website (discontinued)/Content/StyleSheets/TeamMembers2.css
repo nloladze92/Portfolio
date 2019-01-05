@@ -1,7 +1,6 @@
 ﻿wrapper--team {
+    margin: 0;
     padding: 2rem 1rem;
-    margin-left: 10vw;
-    position: absolute;
 }
 
 .l-container {
