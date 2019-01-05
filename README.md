@@ -112,11 +112,11 @@
 </tbody>
 </table><blockquote>
 <p>We use the <strong>Elliptic</strong> and the <strong>SECP256k1</strong> libraries to sign our transactions with our public key from our private key. The <strong>SHA256</strong> library is of course the basis of all proof-of-work implementations for nearly all currencies. Testing our scripts is done in <strong>Jest</strong> and we use <strong>Nodemon</strong> to automatically restart our Bash terminal upon changes to the library.</p>
-<h2 id="to-setup-1">To Setup:</h2>
 </blockquote>
+<h2 id="to-setup-1">To Setup:</h2>
 <ol>
 <li>
-<p>Clone the repo <a href="https://github.com/dbader/">here</a> or alternatively zip the repo.</p>
+<p>Clone the repo <a href="https://github.com/nloladze92/Node">here</a> or alternatively zip the repo.</p>
 </li>
 <li>
 <p>CD into directory, on mac use the Terminal application and check the directory with the <code>ls</code> command. On Windows use the Command Prompt (CMD) and check the current directory with <code>dir</code> command.</p>
@@ -212,32 +212,37 @@
 </tbody>
 </table><h2 id="to-setup-2">To Setup:</h2>
 <ol>
-<li>Clone the repo <a href="https://github.com/dbader/">here</a> or alternatively zip the repo.</li>
+<li>Clone the repo <a href="https://github.com/nloladze92/Python-Simple-Blockchain">here</a> or alternatively zip the repo.</li>
 <li>Make sure you have <a href="https://www.anaconda.com/download/">Anaconda</a> installed, that is where we’ll run our python script.</li>
 <li>Open the Anaconda application (might be known as Anaconda Navigator). Launch Spyder from the home menu, this will take you to a separate IDE.<br>
 <img src="https://i.ibb.co/jznKfLh/11.jpg" alt="enter image description here"></li>
-<li>With the Spyder application, open (Ctrl-o) the following files; port5001, port 5002, port 5003, nodes.json and transaction.json. All these files are found in /Testing_Decentralized_Network/ in the repo. Basically, open all files in that folder with the Spyder application.</li>
+<li>With the Spyder application, open (Ctrl-o) the following files; port5001, port 5002, port 5003, nodes.json and transaction.json.</li>
 <li>You’ll want to run Port 5001, 5002 and 5003. All three files. To do so you can hit the run (F5) key up top (green arrow) <img src="https://i.ibb.co/QpB4Hx9/15.jpg" alt="enter image description here">. You’ll need an Ipython console open, which is under, consoles &gt; open an Ipython console (Ctrl-t). You’ll need a <strong>separate</strong> instance of each Ipython console running a separate instance of a Port. So, we’re running three ports, we’ll need three Ipython consoles running each file separately.</li>
 </ol>
 <h6 id="sometimes-the-kernal-has-to-load-for-the-ipython-console.-this-is-annoying-but-just-let-it-load.">Sometimes the kernal has to load for the Ipython console. This is annoying but just let it load.</h6>
-<p><img src="https://i.ibb.co/QQ9VrFd/12.jpg" alt="enter image description here"><br>
-7. Open up the <a href="https://www.getpostman.com/">Postman</a> app. Exit out of the immediate screen prompt. Then open up three separate tabs. If you get any weird responses, remember to close out of the tab and open up a new one to refresh the cache.<br>
-8. In each tab, as a <code>GET</code> request, type in <code>http://127.0.0.1:5001/get_chain</code> and like so for port 5002 and port 5003. Meaning…<br>
-<img src="https://i.ibb.co/XFZXJkR/13.jpg" alt="enter image description here"></p>
+<p><img src="https://i.ibb.co/QQ9VrFd/12.jpg" alt="enter image description here"></p>
+<h2 id="directions-2">Directions:</h2>
+<ul>
+<li>Open up the <a href="https://www.getpostman.com/">Postman</a> app. Exit out of the immediate screen prompt. Then open up three separate tabs. If you get any weird responses, remember to close out of the tab and open up a new one to refresh the cache.</li>
+<li>In each tab, as a <code>GET</code> request, type in <code>http://127.0.0.1:5001/get_chain</code> and like so for port 5002 and port 5003. Meaning…<br>
+<img src="https://i.ibb.co/XFZXJkR/13.jpg" alt="enter image description here"></li>
+</ul>
 <blockquote>
 <p>We now have three separate instance of a blockchain having the initial generated block being displayed</p>
 </blockquote>
-<ol start="9">
+<ul>
 <li>Let’s run further tests. In all three Postman tabs, select <code>POST</code> and replace the app request<code>get_chain</code> part with <code>connect_node</code>. Then, in the nodes.json file, we’ll want to copy everything there and in Postman, under our request click <code>body</code> and then select the <code>raw</code> option and select <code>JSON (application/json)</code>. Whatever node instance you are currently running in the Postman tab, you’ll want to delete since you can’t connect to your own node… you’re already connected to it.</li>
-</ol>
-<p><img src="https://i.ibb.co/tsNx4xV/16.jpg" alt="enter image description here"><br>
-10. Let’s mine a block now that all three of our nodes are connected. It will have to be a <code>GET</code> request so switch that from a <code>POST</code> to a <code>GET</code> request. Then type in <code>http://127.0.0.1:5001/mine_block</code> or replace the 5001 with whatever node you want to mine on. Remember, it has to be a <code>GET</code> request. Then click send and you should see a block being mined with an index. You can mine as much as you want.<br>
-11. Now navigate to any other tab and input <code>http://127.0.0.1:5001/replace_chain</code>. This should also be a <code>GET</code> request. You’ll now see the blocks on the new port have been replaced or in other words, the blockchain has been replaced.</p>
+</ul>
+<p><img src="https://i.ibb.co/tsNx4xV/16.jpg" alt="enter image description here"></p>
+<ul>
+<li>Let’s mine a block now that all three of our nodes are connected. It will have to be a <code>GET</code> request so switch that from a <code>POST</code> to a <code>GET</code> request. Then type in <code>http://127.0.0.1:5001/mine_block</code> or replace the 5001 with whatever node you want to mine on. Remember, it has to be a <code>GET</code> request. Then click send and you should see a block being mined with an index. You can mine as much as you want.</li>
+<li>Now navigate to any other tab and input <code>http://127.0.0.1:5001/replace_chain</code>. This should also be a <code>GET</code> request. You’ll now see the blocks on the new port have been replaced or in other words, the blockchain has been replaced.</li>
+</ul>
 <p><img src="https://i.ibb.co/5jpKQX0/17.jpg" alt="enter image description here"></p>
 <hr>
-<ol start="12">
+<ul>
 <li>Now let’s send a transaction. In the Spyder application, copy what’s inside the transaction.json file…</li>
-</ol>
+</ul>
 <pre class=" language-sh"><code class="prism  language-sh">{
     "sender": "Person 2",
     "receiver": "Person 3",
@@ -245,9 +250,11 @@
 }
 </code></pre>
 <p>And going back to Postman, in one of the tabs run the <code>add_transaction</code> command as <code>Post</code> variable. Click on <code>body</code> and select <code>raw</code> and then <code>JSON (application/json)</code>. The command that is about to be sent should be <code>http://127.0.0.1:5002/add_transaction</code> or from whatever port you want it to be sent from. Click send. You should get a response along the lines of <code>"message": "This transaction will be added to Block 8"</code>.<br>
-<img src="https://i.ibb.co/JCyRJ6Y/18.jpg" alt="enter image description here"><br>
-13. Now, you must mine a block from that port. So if you added a transaction on port 5003, you must mine a block on port 5003 via a <code>GET</code> request like so… <code>http://127.0.0.1:5003/mine_block</code>. This will send the add_transaction <code>POST</code> request we had inputted.<br>
-14. Now that, that block has been mined. Replace the chains on the other tabs. Now, we have successfully inputted a transaction, had it passed in our block and mined blocks and had chains become replaced.</p>
+<img src="https://i.ibb.co/JCyRJ6Y/18.jpg" alt="enter image description here"></p>
+<ul>
+<li>Now, you must mine a block from that port. So if you added a transaction on port 5003, you must mine a block on port 5003 via a <code>GET</code> request like so… <code>http://127.0.0.1:5003/mine_block</code>. This will send the add_transaction <code>POST</code> request we had inputted.</li>
+<li>Now that, that block has been mined. Replace the chains on the other tabs. Now, we have successfully inputted a transaction, had it passed in our block and mined blocks and had chains become replaced.</li>
+</ul>
 <hr>
 <h1 id="no.-4---ohni-project-website-depreciated">No. 4 - Ohni Project Website (depreciated)</h1>
 <p><em>The worst thing, is to almost succeed, almost really make it but fail. Unfortunately the cryptocurrency team and I had different visions, mine was wrong. I wanted an elaborate website and back-end from which we could begin to make calls to a network for. I was also studying for a C# position, for whatever reason there are a lot of companies in the Midwest that rely on C# only. Either way, I made a website in pretty much the most verbose and complicated way you could and this was it. I’ve since learned to streamline everything. For this, you’ll need  <a href="https://visualstudio.microsoft.com/">Visual Studio (Community)</a>. Just to clarify, not visual studio code but the whole visual studios IDE (the purple one if you’re not sure).</em><br>
