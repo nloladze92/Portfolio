@@ -37,7 +37,7 @@
 <h2 id="to-setup">To Setup:</h2>
 <ol>
 <li>
-<p>Clone the repo <a href="https://github.com/dbader/">here</a> or alternatively zip the repo.</p>
+<p>Clone the repo <a href="https://github.com/nloladze92/Kickstarter">here</a> or alternatively zip the repo.</p>
 </li>
 <li>
 <p>CD into directory, on mac use the Terminal application and check the directory with the <code>ls</code> command. On Windows use the Command Prompt (CMD) and check the current directory with <code>dir</code> command.</p>
