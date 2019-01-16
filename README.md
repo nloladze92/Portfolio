@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 # Nik Loladze's Porftolio
 [![Node](https://i.ibb.co/8sxWcrw/button-node.png)](https://nodejs.org/en/download/) [![Node](https://dabuttonfactory.com/button.png?t=NPM&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=3d85c6&ebgc=073763)](https://www.npmjs.com/get-npm) [![forthebadge](https://dabuttonfactory.com/button.png?t=Solidity+.0.4.17&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=3d85c6&ebgc=073763)](https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.17+commit.bdeb9e52.js) [![forthebadge](https://dabuttonfactory.com/button.png?t=Infuria&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=3d85c6&ebgc=073763)](https://infura.io/) [![forthebadge](https://dabuttonfactory.com/button.png?t=Web3&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=3d85c6&ebgc=073763)](https://web3js.readthedocs.io/en/1.0/) [![Node](https://dabuttonfactory.com/button.png?t=Python+3&f=Calibri-Bold&ts=24&tc=fff&tshs=1&tshc=000&hp=20&vp=8&c=5&bgt=gradient&bgc=c00&ebgc=900)](https://www.anaconda.com/download/) 
 ![Timeline](https://i.ibb.co/Wpp6YDZ/2.jpg)
