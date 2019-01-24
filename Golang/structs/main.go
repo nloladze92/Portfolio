@@ -14,7 +14,7 @@ type person struct {
 }
 
 func main() {
-	// alex := person{"Alex", "Anderson"}
+	// alex := person{"Alex", "AndersonN"}
 	// fmt.Println(alex)
 	// var alex person
 	// fmt.Println(alex)
