@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-type getArea interface {
-	printArea() float64
+type shape interface {
+	getArea() float64
 }
 
 type triangle struct {
@@ -16,20 +16,21 @@ type square struct {
 }
 
 func main() {
-	t := triangle{}
-	s := square{}
+	t := triangle{height: 10, base: 10}
+	s := square{sideLength: 40}
+
+	printArea(t)
+	printArea(s)
 }
 
-func printArea()
-
-func (s getArea) printArea() float64 {
-	area := sideLength * 2
-	fmt.Println(area)
-	return area
+func (s square) getArea() float64 {
+	return s.sideLength * s.sideLength
 }
 
-func (t getArea) printArea() float64 {
-	area := height * base * .5
-	fmt.Println(area)
-	return area
+func (t triangle) getArea() float64 {
+	return t.height * t.base * .5
+}
+
+func printArea(s shape) {
+	fmt.Println(s.getArea())
 }
