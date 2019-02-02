@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <h1 id="nik-loladzes-porftolio">Nik Loladze’s Porftolio</h1>
 <p><a href="https://nodejs.org/en/download/"><img src="https://i.ibb.co/8sxWcrw/button-node.png" alt="Node"></a> <a href="https://www.npmjs.com/get-npm"><img src="https://dabuttonfactory.com/button.png?t=NPM&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="Node"></a> <a href="https://remix.ethereum.org/#optimize=false&amp;version=soljson-v0.4.17+commit.bdeb9e52.js"><img src="https://dabuttonfactory.com/button.png?t=Solidity+.0.4.17&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://infura.io/"><img src="https://dabuttonfactory.com/button.png?t=Infuria&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://web3js.readthedocs.io/en/1.0/"><img src="https://dabuttonfactory.com/button.png?t=Web3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://www.anaconda.com/download/"><img src="https://dabuttonfactory.com/button.png?t=Python+3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=c00&amp;ebgc=900" alt="Node"></a></p>
 <hr>
@@ -180,8 +185,23 @@
 <p><code>There is no native check wallet balance function unfortunately.</code></p>
 </li>
 </ul>
-
-<h1 id="no.-3---simple-python-blockchain">No. 3 - Simple Python Blockchain</h1>
+<hr>
+<h1 id="no.-3---golang-class">No. 3 - Golang Class</h1>
+<p>For any and every project folder, cd into it and run <code>go run main.go</code> in the terminal to kick-off the golang process. Each folder is for a different aspect of the Golang language.</p>
+<ul>
+<li>Channels: Pings five major websites over a course of five seconds, all on one Go channel through one main routine and four sub-routines that are passed by value their own container in memory.</li>
+<li>Even-Odd: A simple test to create a loop counter up to ten to print out only even values.</li>
+<li>Hello-World: Simple application to print hello world in Golang.</li>
+<li>HTTP: Make a GET request with HTTP of the Google page and then print out the returned HTML out to the terminal or write I should say instead.</li>
+<li>Interfaces: Basic understanding of using interfaces to interact with two separate structs which in theory will share a function with closely related logic.</li>
+<li>Interfaces test: A test to define two structs and have an interface implement their logic via separate functions for areas of a triangle and square respectively. Then have a shared function for printing that area to the terminal. I actually had to implement the instructor solution for this.</li>
+<li>Interfaces test two: Pass file name to the go run process like so: <code>go run main.go myfile.txt</code> and have it output to the terminal the contents. I passed this one on my own.</li>
+<li>Maps: Run through a slice of strings.</li>
+<li>Deck: Shuffles a slice of cards randomly. Mainly just learned packages are shared and how to interact with functions separately in different files.</li>
+<li>Structs: Implementation of structs and pointers.</li>
+</ul>
+<hr>
+<h1 id="no.-4---simple-python-blockchain">No. 4 - Simple Python Blockchain</h1>
 <p><em>A much, much simplier implementation of a blockchain, without public or private keys or transaction pools. The proof of work is also considerably simplier but follows the same SHA256 pattern in trying to get a hash with the proper number of leading zeros in front of it. With this project, we’ll need <a href="https://www.getpostman.com/">Postman</a> again to make custom calls.</em><br>
 <img src="https://i.ibb.co/VDvXrh0/19.jpg" alt="enter image description here"></p>
 <blockquote>
@@ -251,8 +271,8 @@
 <li>Now that, that block has been mined. Replace the chains on the other tabs. Now, we have successfully inputted a transaction, had it passed in our block and mined blocks and had chains become replaced.</li>
 </ul>
 <hr>
-<h1 id="no.-4---ohni-project-website-depreciated">No. 4 - Ohni Project Website (depreciated)</h1>
-<p><em>The worst thing, is to almost succeed, almost really make it but fail. Unfortunately the cryptocurrency team and I had different visions, mine was wrong. I wanted an elaborate website and back-end from which we could begin to make calls to a network for. I was also studying for a C# position, for whatever reason there are a lot of companies in the Midwest that rely on C# only. Either way, I made a website in pretty much the most verbose and complicated way you could and this was it. I’ve since learned to streamline everything. For this, you’ll need  <a href="https://visualstudio.microsoft.com/">Visual Studio (Community)</a>. Just to clarify, not visual studio code but the whole visual studios IDE (the purple one if you’re not sure).</em><br>
+<h1 id="no.-5---ohni-project-website-depreciated">No. 5 - Ohni Project Website (depreciated)</h1>
+<p>I made a website in pretty much the most verbose and complicated way you could and this was it. I’ve since learned to streamline everything. For this, you’ll need  <a href="https://visualstudio.microsoft.com/">Visual Studio (Community)</a>. Just to clarify, not visual studio code but the whole visual studios IDE (the purple one if you’re not sure).<br>
 <img src="https://i.ibb.co/gVsk5KP/21.jpg" alt="enter image description here"></p>
 
 <table>
@@ -284,7 +304,7 @@
 <ol start="5">
 <li>There isn’t much to explore. But you can scroll down and click the spirals at the bottom for some neat animations.</li>
 </ol>
-<h1 id="no.-5---spendvow-site-depreciated">No. 5 - SpendVow Site (depreciated)</h1>
-<p><em>Some people ask where their early 20s went. I know where mine went. They went into this thing. I was incredibly hard-headed. I created from scratch, a templating PHP MVC engine that accepted logins, zeroed in on an address, measured the square feet of that building with some clicks and then presented options to improve that business. Then that plan could be uploaded and voted on. Mind you, this was before React so the site was a mind-bender in design and not in the good way. There was zero sense of agile, my business logic was decently defined but I could have easily picked Rails to build my vision or even Java if I had any sense. The project was my founding base as a coder and taught me incredible, nonhuman levels of persistence and dedication. The project is honestly, such a relic and so broken that it’s practically impossible to get an instance of it up and running.</em><br>
+<h1 id="no.-6---spendvow-site-depreciated">No. 6 - SpendVow Site (depreciated)</h1>
+<p>I created from scratch, a templating PHP MVC engine that accepted logins, zeroed in on an address, measured the square feet of that building with some clicks and then presented options to improve that business. Then that plan could be uploaded and voted on. It is a relic now.<br>
 <img src="https://i.ibb.co/hFnBdmt/22.jpg" alt="enter image description here"></p>
 
