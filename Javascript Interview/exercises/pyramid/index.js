@@ -13,7 +13,26 @@
 //       '  #  '
 //       ' ### '
 //       '#####'
+//   pyramid(4)
+//      '   #   '
+//      '  ###  '
+//      ' ##### '
+//      '#######'
 
-function pyramid(n) {}
+function pyramid(n) {
+
+    /* my solution
+        const steps = new Object();
+        var ending = (n - 1) + n;
+
+        if (steps.value.length == n) {
+            return;
+        }
+*/
+
+
+
+        
+}
 
 module.exports = pyramid;

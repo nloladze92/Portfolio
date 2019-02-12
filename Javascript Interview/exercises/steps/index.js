@@ -35,6 +35,8 @@ function steps(n, row = 0, stair = '') {
         stair += " ";
     }
 
+    steps(n, row, stair);
+
     /*
     for (let row = 0; row < n; row++) {
         let stair = '';
