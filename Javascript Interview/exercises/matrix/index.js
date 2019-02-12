@@ -15,12 +15,21 @@
 //     [11, 16, 15, 6],
 //     [10,  9,  8, 7]]
 
+/*
+    for loop
+    iterate number, push array, keep pushing
+    till number reaches n, iterate backwards, increasing
+    move up until reach first, count, move down, count
+    n is the boundry, keep iterating
+*/
+
 function matrix(n) {
     const results = [];
     for (let i = 0; i < n; i++) {
         results.push([]);
     }
 
+    //variables to determine clock hands
     let counter = 1;
     let startColumn = 0;
     let endColumn = n - 1;
@@ -34,7 +43,30 @@ function matrix(n) {
             counter++;
         }
         startRow++;
+
+        //right column
+        for (let i = startRow; i <= endRow; i++) {
+            results[i][endColumn] == counter;
+            counter++;
+        }
+        endColumn--;
+
+        //Bottom Row
+        for (let i = endColumn; i >= startColumn; i--) {
+            results[endRow][i] = counter;
+            counter++;
+        }
+        endRow--;
+
+        //startcolumn, iterate up through the columns until you hit the beginning 
+        for (let i = endRow; i >= startRow; i--) {
+            results[i][startColumn] = counter;
+            counter++;
+        }
+        startColumn++;
     }
 }
 
-module.exports = matrix;
+console.log(matrix(17));
+
+//module.exports = matrix;
