@@ -3,6 +3,8 @@
 
 ---
 
+<hr>
+<hr>
 <h1 id="nik-loladzes-porftolio">Nik Loladze’s Porftolio</h1>
 <p><a href="https://nodejs.org/en/download/"><img src="https://i.ibb.co/8sxWcrw/button-node.png" alt="Node"></a> <a href="https://www.npmjs.com/get-npm"><img src="https://dabuttonfactory.com/button.png?t=NPM&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="Node"></a> <a href="https://remix.ethereum.org/#optimize=false&amp;version=soljson-v0.4.17+commit.bdeb9e52.js"><img src="https://dabuttonfactory.com/button.png?t=Solidity+.0.4.17&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://infura.io/"><img src="https://dabuttonfactory.com/button.png?t=Infuria&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://web3js.readthedocs.io/en/1.0/"><img src="https://dabuttonfactory.com/button.png?t=Web3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=3d85c6&amp;ebgc=073763" alt="forthebadge"></a> <a href="https://www.anaconda.com/download/"><img src="https://dabuttonfactory.com/button.png?t=Python+3&amp;f=Calibri-Bold&amp;ts=24&amp;tc=fff&amp;tshs=1&amp;tshc=000&amp;hp=20&amp;vp=8&amp;c=5&amp;bgt=gradient&amp;bgc=c00&amp;ebgc=900" alt="Node"></a></p>
 <hr>
@@ -11,7 +13,6 @@
 <h1 id="no.-1---kickstarter-solidity-contract">No. 1 - Kickstarter Solidity Contract</h1>
 <p><em>This is a <a href="https://www.kickstarter.com/">Kickstarter</a> clone where people donate ethereum instead of money. People donate to a decentralized contract on the Ethereum network and then the contract makes requests for spending ether from the contract. All requests must have a majority of contributors approve the request. All transactions are handled through <a href="https://metamask.io/">Metamask</a>, so you must have that installed.</em></p>
 <p><img src="https://i.ibb.co/b5wTQJt/Kickstarter.jpg" alt="Solidity Contract"></p>
-
 <table>
 <thead>
 <tr>
@@ -92,7 +93,6 @@
 <h1 id="no.-2---node-cryptocurrency">No. 2 - Node Cryptocurrency</h1>
 <p><em>This is a full-scale blockchain implementation. The only difference between this and Bitcoin is the proof-of-work protocol and the automatic calls to mine and replace chains by the longest one. There are also minor security issues but for the most part, this is as complete as a blockchain can be. Of course, there are no miner fees but there is a currency. In order to make POST and GET requests (calls essentially) to the P2P network, you’ll need to have <a href="https://www.getpostman.com/">Postman</a>,  installed.</em></p>
 <p><img src="https://i.ibb.co/sJkfqyd/4.jpghttps://i.ibb.co/0fY8BCs/1.jpg" alt="Node Blockchain Layout"></p>
-
 <table>
 <thead>
 <tr>
@@ -134,10 +134,10 @@
 <p>If on a mac execute the following command.</p>
 </li>
 </ol>
-<pre class=" language-sh"><code class="prism  language-sh">HTTP_PORT=3002 P2P_PORT=5002 PEERS=ws//localhost:5001 npm run dev
+<pre class="  language-sh"><code class="prism  language-sh">HTTP_PORT=3002 P2P_PORT=5002 PEERS=ws//localhost:5001 npm run dev
 </code></pre>
 <p>Due to the way Powershell passes commands, on Windows you’ll have to run</p>
-<pre class=" language-sh"><code class="prism  language-sh">set HTTP_PORT=3002 &amp;&amp; set P2P_PORT=5002 &amp;&amp; set PEERS=ws://localhost:5001 &amp;&amp; npm run dev
+<pre class="  language-sh"><code class="prism  language-sh">set HTTP_PORT=3002 &amp;&amp; set P2P_PORT=5002 &amp;&amp; set PEERS=ws://localhost:5001 &amp;&amp; npm run dev
 </code></pre>
 <h2 id="directions-1">Directions</h2>
 <ul>
@@ -160,7 +160,7 @@
 <p>You’re  going to need to paste raw JSON into the body, we’ll sound 50 tokens initially (since all starting wallets come with 500 tokens). Make sure that the word recipient and amount and the port’s public key are all encased “” double strings since they are strings and the amount we are sending is a number, so it does not need to be encased in strings.</p>
 </li>
 </ul>
-<pre class=" language-sh"><code class="prism  language-sh">{
+<pre class="  language-sh"><code class="prism  language-sh">{
 	"recipient": "the 3002's port public key (address) that you copied
 	is pasted here",
 	"amount": 50
@@ -207,7 +207,6 @@
 <blockquote>
 <p>Anaconda is a strange kind of IDE that comes integrated with <strong>Python</strong> and the <strong>SECP256k1</strong> libraries to sign our transactions with our public key from our private key. The <strong>SHA256</strong> library is of course the basis of all proof-of-work implementations for nearly all currencies. Testing our scripts is done in <strong>Jest</strong> and we use <strong>Nodemon</strong> to automatically restart our Bash terminal upon changes to the library.</p>
 </blockquote>
-
 <table>
 <thead>
 <tr>
@@ -258,7 +257,7 @@
 <ul>
 <li>Now let’s send a transaction. In the Spyder application, copy what’s inside the transaction.json file…</li>
 </ul>
-<pre class=" language-sh"><code class="prism  language-sh">{
+<pre class="  language-sh"><code class="prism  language-sh">{
     "sender": "Person 2",
     "receiver": "Person 3",
     "amount": 10000 
@@ -271,10 +270,40 @@
 <li>Now that, that block has been mined. Replace the chains on the other tabs. Now, we have successfully inputted a transaction, had it passed in our block and mined blocks and had chains become replaced.</li>
 </ul>
 <hr>
-<h1 id="no.-5---ohni-project-website-depreciated">No. 5 - Ohni Project Website (depreciated)</h1>
-<p>I made a website in pretty much the most verbose and complicated way you could and this was it. I’ve since learned to streamline everything. For this, you’ll need  <a href="https://visualstudio.microsoft.com/">Visual Studio (Community)</a>. Just to clarify, not visual studio code but the whole visual studios IDE (the purple one if you’re not sure).<br>
+<h1 id="no.- 5---golang-class">No. 5 - Javascript Class</h1>
+<p>A javascript class that covered data objects, interview questions and some fancy javascript. Really helped me zero in on computer science and understanding the fundamentals of LogO and data structures. To run it, make sure you have jest-cli installed and run the tests with jest.</p>
+<ul>
+<li>Anagrams - Did a brief introduction to anagrams with regular expressions</li>
+<li>Binanry Search Tree - Implemented an insert and contains method on a binary search tree by checking left and right values through conditional statements</li>
+<li>Capitalization - Capitalized every first letter of a sentence through a for-loop and checking if the character had a space, then capitalizing the next character.</li>
+<li>Chunking - Used the slice method to create chunks of arrays.</li>
+<li>Circular Linked List - Checked to see if a linked list is circular or not by checking the next data object and what it is pointing to.</li>
+<li>Events - Created a simple events library with an "on, off and trigger" via a javascript object named events and checking to see if events were present in that object.</li>
+<li>FizzBuzz - Did the Fibonacci method recursively and implemented a memoize function.</li>
+<li>From Last - Iterated through a linked list to return a specific value vis a vis a loop counter and iterating through two data objects in the linked list and what they pointed to.</li>
+<li>Level Width - Return the levels of a tree; so I used a stopgap and unshifted elements into an array to have them counted. </li>
+<li>Linked List - Created a linked list with various methods; clear, getFirst, getLast, insertFirst and so on. </li>
+<li>Matrix - Create a spiraling matrix of arrays, which was done through start and end rows and columns.</li>
+<li>MaxChar - Returned the most common char in a string through a javascript object.</li>
+<li>Midpoint - Returned the midpoint of a linked list</li>
+<li>Palindrome - Use the every iterator to see if a value is equal to it's tail end of an array of a split string.</li>
+<li>Pyramid - Create a pyramid of pound signs through finding the midpoint with the Math floor function and subtracting and adding from a row counter to add pound signs, </li>
+<li>Qforms - Create a queue from two different stacks. Created the peek, add and remove functions. Then popping from the top of the stack, adding it to the stack and popping from that stack to create a queue.</li>
+<li>Queue - Simple queue class with add and remove functions through unshift and pop functions.</li>
+<li>ReverseInt - Reverse and integer through split and use the Math sign function to return absolute positive or negative based on the input number.</li>
+<li>Reverse - Reverse a string through reverse.</li>
+<li>Sorting - Bubble sort, selection sort and merge sort. Bubble and merge sort are done through i and j counters. Merge sort involves splicing arrays and then merging the shared compositions by comparing the larger of values. Then all at once returning the left, right and center of the array.</li>
+<li>Stack - Created a stack class with pop, push and peek functions.</li>
+<li>Steps - Create a half pyramid or steps with pound signs. Done with two conditionals and a row counter.</li>
+<li>Tree - Create a tree and traverse through breadth and depth. Involves shifting and pushing or unshifting and pushing to an empty array. Use the filter function to remove an element in the tree and simply pushing a new data value with add. </li>
+<li>Validate - Validate a binary tree is valid by having the smaller of values below and to the left. Done with four conditionals, two of which are recursive.</li>
+<li>Vowels - Returns number of vowels in a string. Done with a regular expression.</li>
+<li>Weave - Combine two queues in a return statement. Done with a while loop by iterating through the lengths by implement the previous peek function from the linked list class. </li>
+</ul>
+<hr>
+<h1 id="no.-6---ohni-project-website-depreciated">No. 6 - Ohni Project Website (depreciated)</h1>
+<p> <a href="https://visualstudio.microsoft.com/">Visual Studio (Community)</a><br>
 <img src="https://i.ibb.co/gVsk5KP/21.jpg" alt="enter image description here"></p>
-
 <table>
 <thead>
 <tr>
@@ -304,7 +333,7 @@
 <ol start="5">
 <li>There isn’t much to explore. But you can scroll down and click the spirals at the bottom for some neat animations.</li>
 </ol>
-<h1 id="no.-6---spendvow-site-depreciated">No. 6 - SpendVow Site (depreciated)</h1>
-<p>I created from scratch, a templating PHP MVC engine that accepted logins, zeroed in on an address, measured the square feet of that building with some clicks and then presented options to improve that business. Then that plan could be uploaded and voted on. It is a relic now.<br>
+<h1 id="no.-7---spendvow-site-depreciated">No. 7 - SpendVow Site (depreciated)</h1>
+<p>I created from scratch, a templating PHP MVC engine that accepted logins, zeroed in on an address, measured the square feet of that building with some clicks and then presented options to improve that business. Then that plan could be uploaded and voted on. <br>
 <img src="https://i.ibb.co/hFnBdmt/22.jpg" alt="enter image description here"></p>
 
