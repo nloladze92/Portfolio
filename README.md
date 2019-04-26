@@ -1,8 +1,3 @@
----
-
-
----
-
 <hr>
 <hr>
 <h1 id="nik-loladzes-porftolio">Nik Loladze’s Porftolio</h1>
